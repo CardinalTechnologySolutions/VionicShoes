@@ -50,7 +50,7 @@
     overflow: visible!important;
 }
 }
-@media (max-width: 1023px){
+@media (min-width: 1024px){
 	.bx-circle{
 		display:none;
 	}
