@@ -118,7 +118,8 @@ p{
     color:#ff4612;
     background-color: transparent !important;
 }
-.s-story-slider{
+.glyphicon-chevron-left{
+	color:red !important;
 	
 }
 .s-story-slider .carousel-inner{
@@ -129,7 +130,8 @@ p{
     bottom: 10px;
     z-index: 15;
     top: -100px;
-    width: 87%;
+    width: 100%;
+	left:0 !important;
     margin: 0 auto;
     margin-top: 50px !important;
     text-align: center;
@@ -142,14 +144,14 @@ p{
     height: 70px;
     margin: 0;
     background-color: #fff;
-}
-.s-story-slider .carousel-indicators  active{
+	opacity:1;
 	border:1px solid red !important;
 }
 .s-story-slider .carousel-indicators li {
     display: inline-block;
     width: 70px;
     height:70px;
+	border-radius:50%;
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
@@ -264,12 +266,43 @@ p{
 	font-size:14px;
 	text-transform:uppercase;
 }
-.img-tumbnail{
+.img-tumbnail1{
 	border-radius:50%;
+	background:url(../images/Alice/alicetumb-1.jpg);
 	width:70px;
 	height:70px;
 }
-.img-slider-wh{width:50%; height:auto; margin:0 auto; display:table;}
+.img-tumbnail2{
+	border-radius:50%;
+	background:url(../images/Hayet/hayet1-thumbnail.png);
+	width:70px;
+	height:70px;
+}
+.img-tumbnail3{
+	border-radius:50%;
+	background:url(../images/Jamie/jamie1-thumbnail.png);
+	width:70px;
+	height:70px;
+}
+.img-tumbnail4{
+	border-radius:50%;
+	background:url(../images/Lavenda/lavenda1-thumbnail.png);
+	width:70px;
+	height:70px;
+}
+.img-tumbnail5{
+	border-radius:50%;
+	background:url(../images/Lydia/lydia1thumbnail.png);
+	width:70px;
+	height:70px;
+}
+.img-tumbnail6{
+	border-radius:50%;
+	background:url(../images/Abigail/abigail1-thumbnail.png);
+	width:70px;
+	height:70px;
+}
+.img-slider-wh{width:60%; height:auto; margin:0 auto; display:table;}
 .bg-big{
 	background-image:url(../images/bg-big.png);
 	background-repeat:no-repeat;
@@ -400,8 +433,9 @@ blockquote p {
   display: inline;
 }
 .img-thumb-btm{
-	width:70px;
-	height:70px;
+	width:79px;
+	height:79px;
+	position:relative;
 }
 .img-thumb-right{
 	width:80px;
@@ -697,7 +731,9 @@ header.nav>li>a{
 .li-head{
 	font-size:16px !important;
 	font-family: MrsEavesOT-Roman;
-}	
+}
+.thumbnail-position1{position: absolute; top: 83px; left: 356px; display:inline-block;	}
+.thumbnail-position2{position: absolute; top: 83px; left: 400px;}
 /** Mega menu web version**/
 
 
