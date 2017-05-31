@@ -308,6 +308,7 @@ p{
 	background-repeat:no-repeat;
 	background-position:bottom;
 	width:50%;
+	box-shadow: 2px 0 2px #ccc;
 }
 .text-right{
 	text-align:center;

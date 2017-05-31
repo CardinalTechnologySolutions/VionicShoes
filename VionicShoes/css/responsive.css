@@ -110,10 +110,15 @@ and (max-device-width : 1024px) {
     left: -21px;
 }
 .style-str-head{
-	font-size:12px !important;
-	line-height:20px !important;
-	max-height:200px;
-	color:#000 !important;
+	.style-str-head{
+	text-align:center;
+	font-family: 'ATSackersHeavyGothic';
+    font-size: 12px;
+	color:#000;
+	line-height:24px;
+	margin:8% 0;
+	text-transform:uppercase;
+}
 }
 }
 @media all and (transform-3d), (-webkit-transform-3d) {
