@@ -22,6 +22,15 @@ footer{
 	display:none;
 }
 }
+@media (min-width: 768px){
+.navbar-collapse.collapse {
+    display: table !important;
+    margin: 0 auto !important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+}
+}
 @media all and (transform-3d), (-webkit-transform-3d) {
        .item{
         // use your favourite prefixer here

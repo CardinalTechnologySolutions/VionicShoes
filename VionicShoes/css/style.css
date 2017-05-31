@@ -534,5 +534,113 @@ input.submit-caret {
 }
 
 
+/** Mega menu web version **/
+.navbar-inverse{ 
+	background-color:transparent !important;
+	border:none;
+}
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #fff;
+  padding: 10px 5px;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #ff3546;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+
+.header-top-right{
+	background-color:#000;
+	padding: 8px 0 0 0;
+}
+.nav-top-right ul{
+   color:#fff;
+}
+.nav-top-right ul li{
+	display:inline;
+	padding-left:20px;
+}
+.nav-top-right ul li a{
+	color:#fff;
+	font-size:14px;
+	line-height:20px;
+}
+.nav-top-right ul li a:hover{
+	color:#fff;
+}
+.nav-top-right{
+	float:right;
+}
+.logo-web{
+	margin:0 auto;
+	display:table;
+	width:23%;
+}
+.top-header-message a {
+    display: inline-block;
+    float: left;
+    width: 200px;
+    font-family: 'MrsEavesOT-Italic';
+    margin-top: 17px;
+    text-align: left;
+    color: #ccc;
+}
+header .btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+    display: table;
+    content: " ";
+    margin: 0 auto !important;
+}
+header .dropdown-menu {
+    background-color: #4b4240 !important;
+	padding:0 10%;
+}
+.li-social a{
+	display:inline;
+	color:#fff;
+}
+.nav-title-nl, .nav-title a {
+    color: #ffffff;
+    display: block;
+    font-family: MrsEavesOT-Roman;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    height: auto;
+    letter-spacing: 2px;
+    line-height: 15px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 7px 0;
+    padding: 0 0 5px 0;
+    text-align: left;
+    text-transform: uppercase;
+    width: auto;
+}	
+/** Mega menu web version**/
+
+
 
 
