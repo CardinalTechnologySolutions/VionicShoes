@@ -56,6 +56,15 @@ and (max-device-width : 1024px) {
 	.bx-circle{
 		display:none;
 	}
+	.foot-head {
+    text-align: center;
+    font-family: 'ATSackersHeavyGothic';
+    font-size: 18px;
+    color: #000 !important;
+    line-height: 24px;
+    margin: 5% 0;
+    text-transform: uppercase;
+}
 	.bg-big {
     position: relative;
     left: 158px;
