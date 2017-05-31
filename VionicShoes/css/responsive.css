@@ -66,13 +66,18 @@
     color: #ff4612;
     font-size: 38px !important;
     top: 178px;
-    right: 20px;
+    right: 37px;
 }
 .bg-footnotes .glyphicon-chevron-left {
     color: #ff4612;
     font-size: 38px !important;
     top: 178px;
     left: -21px;
+}
+.style-str-head{
+	font-size:12px !important;
+	line-height:20px !important;
+	max-height:200px;
 }
 }
 @media all and (transform-3d), (-webkit-transform-3d) {

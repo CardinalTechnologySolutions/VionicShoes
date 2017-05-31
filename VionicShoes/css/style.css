@@ -355,6 +355,9 @@ p{
 	line-height:30px;
 }
 /*----slider-btm----*/
+.multi-item-carousel .carousel-inner{
+	width:95% !important;
+}
 .multi-item-carousel .carousel-inner > .item {
   -webkit-transition: 500ms ease-in-out left;
   transition: 500ms ease-in-out left;
@@ -403,7 +406,7 @@ p{
     color: #ff4612;
     font-size: 38px !important;
     top: 178px;
-    right: -24px;
+    right:0;
 }
 .view-article a{
 	color:#ff4612;
