@@ -589,8 +589,8 @@ input.submit-caret {
 }
 .nav-top-right ul li a{
 	color: #fff;
-    font-size: 14px;
-	font-family: 'Gotham A', 'Gotham B';
+    font-size: 12px;
+	font-family: Gotham A;
     line-height: 33px;
 }
 .nav-top-right ul li a:hover{
@@ -627,6 +627,7 @@ header .btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:befo
 header .dropdown-menu {
     background-color: #4b4240 !important;
 	padding:0 10%;
+	top:33px;
 }
 .li-social a{
 	display:inline;
