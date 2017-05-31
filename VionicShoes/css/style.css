@@ -55,11 +55,11 @@
 body {
     background: #fff;
     text-align: center;
-    font-family: 'Gotham A', 'Gotham B';
+    font-family: 'Gotham-Book';
     /* font-family: 'Gotham SSm A', 'Gotham SSm B'; */
     font-weight: 300;
     font-style: normal;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 1.428571429;
     color: #372E2C;
     width: 100%;
@@ -243,6 +243,15 @@ p{
     justify-content: center;
 }
 .style-str-head{
+	text-align:center;
+	font-family: 'ATSackersHeavyGothic';
+    font-size: 18px;
+	color:#000;
+	line-height:24px;
+	margin:8% 0;
+	text-transform:uppercase;
+}
+.foot-head{
 	text-align:center;
 	font-family: 'ATSackersHeavyGothic';
     font-size: 18px;
@@ -564,6 +573,7 @@ input.submit-caret {
   display: block;
   color: #fff;
   padding: 3px 5px;
+  font-size:12px;
 }
 .mega-dropdown-menu > li ul > li > a:hover,
 .mega-dropdown-menu > li ul > li > a:focus {
@@ -677,6 +687,16 @@ header.nav>li>a{
 .navbar-inverse .navbar-nav>li>a:hover{
 	background:none !important;
 	color:#000 !important;
+}
+.li-img{
+    position: absolute;
+    width: 90px;
+    left: -80px;
+    top: 0px;
+}
+.li-head{
+	font-size:16px !important;
+	font-family: MrsEavesOT-Roman;
 }	
 /** Mega menu web version**/
 
