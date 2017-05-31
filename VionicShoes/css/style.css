@@ -248,7 +248,7 @@ p{
     font-size: 18px;
 	color:#000;
 	line-height:24px;
-	margin:10% 0;
+	margin:5% 0;
 	text-transform:uppercase;
 }
 .text-sb-title{
@@ -590,8 +590,9 @@ input.submit-caret {
 .nav-top-right ul li a{
 	color: #fff;
     font-size: 12px;
-	font-family: Gotham A;
-    line-height: 33px;
+    font-family: 'Gotham-Book';
+    line-height: 22px;
+    position: relative;
 }
 .nav-top-right ul li a:hover{
 	color:#fff;
