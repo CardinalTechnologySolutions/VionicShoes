@@ -1,28 +1,38 @@
 @media only screen and (max-width: 767px) {
    .navbar-toggle {
-    float: left !important;
-    left: 8px !important;
-    top: -78px !important;
+		float: left !important;
+		left: 8px !important;
+		top: -78px !important;
+	}
+	.bx-circle{display:none;}
+	.bg-big {
+		width: 100%;
+	}
+	.style-str-head {
+		margin-top: 20%;
+	}
+	.bg-footnotes .glyphicon-chevron-left {
+		font-size: 30px !important;
+		left: -26px;
+	}
+	.bg-footnotes .glyphicon-chevron-right {
+		font-size: 30px !important;
+	}
+	footer{
+		display:none;
+	}
+	.mb-view{
+		display:black;
+	}
+	header{
+		display:none;
+	}
 }
-.bx-circle{display:none;}
-.bg-big {
-    width: 100%;
-}
-.style-str-head {
-    margin-top: 20%;
-}
-.bg-footnotes .glyphicon-chevron-left {
-    font-size: 30px !important;
-    left: -26px;
-}
-.bg-footnotes .glyphicon-chevron-right {
-    font-size: 30px !important;
-}
-footer{
-	display:none;
-}
-}
+
 @media (min-width: 768px){
+	.mb-view{
+		display:none;
+	}
 .navbar-collapse.collapse {
     display: table !important;
     margin: 0 auto !important;

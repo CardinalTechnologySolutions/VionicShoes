@@ -542,12 +542,14 @@ input.submit-caret {
 .mega-dropdown {
   position: static !important;
 }
+
 .mega-dropdown-menu {
-    padding: 20px 0px;
-    width: 100%;
-    box-shadow: none;
-    -webkit-box-shadow: none;
+	padding: 2% 10%!important;
+	width: 100%;
+	box-shadow: none;
+	-webkit-box-shadow: none;
 }
+
 .mega-dropdown-menu > li > ul {
   padding: 0;
   margin: 0;
@@ -558,7 +560,7 @@ input.submit-caret {
 .mega-dropdown-menu > li > ul > li > a {
   display: block;
   color: #fff;
-  padding: 10px 5px;
+  padding: 3px 5px;
 }
 .mega-dropdown-menu > li ul > li > a:hover,
 .mega-dropdown-menu > li ul > li > a:focus {
@@ -638,6 +640,15 @@ header .dropdown-menu {
     text-align: left;
     text-transform: uppercase;
     width: auto;
+}
+header.nav>li>a{
+	display: block;
+    margin: auto;
+    text-align: center;
+    font-family: MrsEavesOT-Roman !important;
+    font-size: 16px;
+    color: #000000;
+    padding: 5px 15px 10px;
 }	
 /** Mega menu web version**/
 
