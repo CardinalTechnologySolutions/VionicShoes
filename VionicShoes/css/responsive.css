@@ -62,6 +62,18 @@
     margin: 3% 8%;
     display: block;
 }
+.bg-footnotes .glyphicon-chevron-right {
+    color: #ff4612;
+    font-size: 38px !important;
+    top: 178px;
+    right: 20px;
+}
+.bg-footnotes .glyphicon-chevron-left {
+    color: #ff4612;
+    font-size: 38px !important;
+    top: 178px;
+    left: -21px;
+}
 }
 @media all and (transform-3d), (-webkit-transform-3d) {
        .item{
