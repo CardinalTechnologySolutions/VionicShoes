@@ -10,6 +10,17 @@
 }
 
 @font-face {
+  font-family: 'SackersGothicStd-Medium';
+  src: url('../fonts/SackersGothicStd-Medium.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/SackersGothicStd-Medium.otf')  format('opentype'),
+  url('../fonts/SackersGothicStd-Medium.woff') format('woff'), 
+  url('../fonts/SackersGothicStd-Medium.ttf')  format('truetype'), 
+  url('../fonts/SackersGothicStd-Medium.svg#SackersGothicStd-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'MrsEavesOT-Italic';
   src: url('../fonts/MrsEavesOT-Italic.eot?#iefix') format('embedded-opentype'),  
        url('../fonts/MrsEavesOT-Italic.otf')  format('opentype'),
@@ -43,6 +54,13 @@ h2{
  font-family: 'ATSackersHeavyGothic';
  font-size:18px;
  line-height:24px;
+ text-align:center;
+}
+h3{ 
+ font-family: 'ATSackersHeavyGothic';
+ font-size:20px;
+ line-height:24px;
+ color:#fff;
  text-align:center;
 }
 h2 div{ 
@@ -345,4 +363,107 @@ blockquote p {
 	margin:0 auto; 
 	display:table;
 }
+footer{
+	background-color:#000;
+	display: block;
+    text-align: center;
+    margin: 10px auto;
+    font-family: SackersGothicStd-Medium;
+    font-size: 14px;
+    color: #a29d9c;
+    text-transform: uppercase;
+    line-height: 150%;
+    font-weight: 300;
+    letter-spacing: 2px;
+    width: 100%;
+}
+
+footer address {
+    border-top: 1px solid #cccccc;
+    text-align: center;
+    width: 100%;
+    font-size: 11px;
+    margin-top: 30px;
+    padding: 30px 0;
+}
+footer .block-title, .footer address {
+    color: rgba(234, 105, 83, 1);
+}
+address {
+    font-style: normal;
+}
+footer, footer button {
+    font-family: 'Gotham A', 'Gotham B', "Helvetica Neue", Verdana, Arial, sans-serif;
+}
+.col-1{
+	text-align:center;
+	border-right:1px solid #fff;
+}
+.col-1 p {
+	font-size:14px;
+	font-family: 'MrsEavesOT-Italic';
+	line-height:18px;
+	text-align:center;
+	color:#fff;
+	padding-bottom:3%;
+}
+.col-1 a{
+	font-size:14px;
+	font-family: 'MrsEavesOT-Italic';
+	line-height:18px;
+	text-align:center;
+	color:#fff;
+}
+.col-1 a:hover{
+	color:#fff;
+	text-align:center;
+}
+.top-pad {
+	background-color:#000;
+	display: block;
+    text-align: center;
+    margin: 10px auto;
+    font-family: SackersGothicStd-Medium;
+    font-size: 14px;
+    color: #a29d9c;
+    text-transform: uppercase;
+    line-height: 150%;
+    font-weight: 300;
+    letter-spacing: 2px;
+    width: 100%;
+}
+.col-2{
+	text-align:center;
+	border-right:1px solid #fff;
+}
+.col-2 p {
+	font-size:14px;
+	font-family: 'MrsEavesOT-Italic';
+	line-height:18px;
+	text-align:center;
+	color:#fff;
+}
+.col-3{
+	text-align:center;
+}
+
+footer .social-icons{
+	color:#fff;
+}
+input.submit-caret {
+    display: inline-block;
+    margin: 5px auto;
+    border: none;
+    background-color: #000000;
+    width: 20px;
+    margin-left: 0;
+    padding: 3px 0px 3px;
+    cursor: pointer;
+    font-family: MrsEavesOT-Roman;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+
 
