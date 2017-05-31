@@ -4,6 +4,23 @@
     left: 8px !important;
     top: -78px !important;
 }
+.bx-circle{display:none;}
+.bg-big {
+    width: 100%;
+}
+.style-str-head {
+    margin-top: 20%;
+}
+.bg-footnotes .glyphicon-chevron-left {
+    font-size: 30px !important;
+    left: -26px;
+}
+.bg-footnotes .glyphicon-chevron-right {
+    font-size: 30px !important;
+}
+footer{
+	display:none;
+}
 }
 @media all and (transform-3d), (-webkit-transform-3d) {
        .item{
