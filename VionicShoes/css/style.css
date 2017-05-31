@@ -246,7 +246,7 @@ p{
 }
 .style-str-head{
 	text-align:center;
-	font-family: 'ATSackersHeavyGothic';
+	/* font-family: 'ATSackersHeavyGothic'; */
     font-size: 18px;
 	color:#000;
 	line-height:24px;
@@ -255,7 +255,7 @@ p{
 }
 .foot-head{
 	text-align:center;
-	font-family: 'ATSackersHeavyGothic';
+	/* font-family: 'ATSackersHeavyGothic'; */
     font-size: 18px;
 	color:#000;
 	line-height:24px;
@@ -335,7 +335,7 @@ p{
     padding: 10% 0;
 }
 .btn-get-learnmore{
-	font-family: 'ATSackersHeavyGothic';
+	/* font-family: 'ATSackersHeavyGothic'; */
     font-size: 14px;
     color: #666;
     padding: 1% 3%;
