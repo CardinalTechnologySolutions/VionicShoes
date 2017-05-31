@@ -362,13 +362,13 @@ p{
 }
 .bg-footnotes .glyphicon-chevron-left {
     color: #ff4612;
-    font-size: 50px !important;
+    font-size: 38px !important;
     top: 178px;
     left: -70px;
 }
 .bg-footnotes .glyphicon-chevron-right {
     color: #ff4612;
-    font-size: 50px !important;
+    font-size: 38px !important;
     top: 178px;
     right: -24px;
 }
@@ -415,7 +415,7 @@ footer{
 	background-color:#000;
 	display: block;
     text-align: center;
-	padding:5% 0;
+	padding:2% 0;
     margin: 10px auto;
     font-family: SackersGothicStd-Medium;
     font-size: 14px;
