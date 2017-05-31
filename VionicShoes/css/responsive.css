@@ -50,6 +50,19 @@
     overflow: visible!important;
 }
 }
+@media (max-width: 1023px){
+	.bx-circle{
+		display:none;
+	}
+	.bg-big {
+    position: relative;
+    left: 158px;
+}
+.video-sec {
+    margin: 3% 8%;
+    display: block;
+}
+}
 @media all and (transform-3d), (-webkit-transform-3d) {
        .item{
         // use your favourite prefixer here
