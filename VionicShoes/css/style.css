@@ -1,5 +1,16 @@
 
 @font-face {
+  font-family: 'MrsEavesOT-Roman';
+  src: url('../fonts/MrsEavesOT-Roman.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/MrsEavesOT-Roman.otf')  format('opentype'),
+  url('../fonts/MrsEavesOT-Roman.woff') format('woff'), 
+  url('../fonts/MrsEavesOT-Roman.ttf')  format('truetype'), 
+  url('../fonts/MrsEavesOT-Roman.svg#MrsEavesOT-Roman') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'ATSackersHeavyGothic';
   src: url('../fonts/ATSackersHeavyGothic.eot?#iefix') format('embedded-opentype'),
   url('../fonts/ATSackersHeavyGothic.woff') format('woff'),
@@ -195,15 +206,6 @@ p{
     background: none;
     color: #666;
 }
-.nav>li>a {
-    position: relative;
-    display: block;
-    padding: 10px 10px;
-	font-size:12px;
-	color: #636363;
-    line-height: 30px;
-    font-family: 'Gotham A', 'Gotham B', "Helvetica Neue", Verdana, Arial, sans-serif;
-}
 .bx-circle{
     width: 38%;
     height: 106%;
@@ -234,6 +236,7 @@ p{
 	position:relative;
     border: 1px solid #34d304;
     box-sizing: border-box;
+	top:-32px;
 }
 .circle-img-box {
     display: flex;
@@ -245,7 +248,7 @@ p{
     font-size: 18px;
 	color:#000;
 	line-height:24px;
-	margin:5% 0;
+	margin:10% 0;
 	text-transform:uppercase;
 }
 .text-sb-title{
@@ -585,9 +588,10 @@ input.submit-caret {
 	padding-left:20px;
 }
 .nav-top-right ul li a{
-	color:#fff;
-	font-size:14px;
-	line-height:20px;
+	color: #fff;
+    font-size: 14px;
+	font-family: 'Gotham A', 'Gotham B';
+    line-height: 33px;
 }
 .nav-top-right ul li a:hover{
 	color:#fff;
@@ -596,9 +600,10 @@ input.submit-caret {
 	float:right;
 }
 .logo-web{
-	margin:0 auto;
-	display:table;
-	width:23%;
+	display: block;
+    margin: auto;
+    width: 220px;
+    height: auto;
 }
 .top-header-message a {
     display: inline-block;
@@ -606,8 +611,13 @@ input.submit-caret {
     width: 200px;
     font-family: 'MrsEavesOT-Italic';
     margin-top: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: -20px;
     text-align: left;
-    color: #ccc;
+    left: 40px;
+    position: relative;
+    color: #666;
 }
 header .btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
     display: table;
@@ -645,10 +655,26 @@ header.nav>li>a{
 	display: block;
     margin: auto;
     text-align: center;
-    font-family: MrsEavesOT-Roman !important;
+    font-family: 'MrsEavesOT-Roman' !important;
     font-size: 16px;
     color: #000000;
     padding: 5px 15px 10px;
+}
+.navbar-inverse .navbar-nav>li>a{
+	display: block;
+    margin: auto;
+    text-align: center;
+    font-family: MrsEavesOT-Roman;
+    font-size: 16px;
+	letter-spacing:1px;
+    color: #000000;
+	text-transform:uppercase;
+    padding: 5px 15px 10px;
+	
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	background:none !important;
+	color:#000 !important;
 }	
 /** Mega menu web version**/
 
