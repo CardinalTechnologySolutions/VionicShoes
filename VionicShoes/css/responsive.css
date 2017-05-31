@@ -114,6 +114,7 @@ and (max-device-width : 1024px) {
 	text-align:center;
 	font-family: 'ATSackersHeavyGothic';
     font-size: 12px;
+	-webkit-appearance: none;
 	color:#000;
 	line-height:24px;
 	margin:8% 0;
