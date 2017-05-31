@@ -82,7 +82,7 @@ and (max-device-width : 1024px) {
 	}
 	.foot-head {
     text-align: center;
-    font-family: 'ATSackersHeavyGothic';
+   /*  font-family: 'ATSackersHeavyGothic'; */
     font-size: 18px;
     color: #000 !important;
     line-height: 24px;
