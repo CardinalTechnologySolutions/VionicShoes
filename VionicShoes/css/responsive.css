@@ -93,7 +93,7 @@ and (max-device-width : 1024px) {
     position: relative;
     left: 158px;
 }
-    .li-img {
+.li-img {
     position: absolute;
     width: 58px;
     left: -42px;
