@@ -7,6 +7,7 @@
 	.bx-circle{display:none;}
 	.bg-big {
 		width: 100%;
+		    box-shadow: inherit;
 	}
 	.style-str-head {
 		margin-top: 3%;
@@ -137,10 +138,11 @@ and (max-device-width : 1024px) {
 @media all and (transform-3d), (-webkit-transform-3d) {
        .item{
         // use your favourite prefixer here
-        transition: 500ms ease-in-out left;
-        transition: 500ms ease-in-out all;
+        transition: 300ms ease-in-out left;
+        transition: 300ms ease-in-out all;
         backface-visibility: visible;
-        transform: none!important;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
       }
     }
 
