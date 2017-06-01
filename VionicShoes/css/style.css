@@ -362,7 +362,7 @@ p{
 }
 /*----slider-btm----*/
 .multi-item-carousel .carousel-inner{
-	width:100% !important;
+	width:95%% !important;
 }
 .multi-item-carousel .carousel-inner > .item {
   -webkit-transition: 500ms ease-in-out left;
