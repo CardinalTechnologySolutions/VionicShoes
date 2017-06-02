@@ -216,10 +216,12 @@ and (max-device-width : 1024px) {
 		left: -21px;
 	}
 	.multi-item-carousel .bx-prev{
-		top:30%;
+		top: 30%;
+        left: -23px
 	}
 	.multi-item-carousel .bx-next{
 		top:30%;
+		right:15px;
 	}
 	.style-str-head{
 		text-align:center;
