@@ -241,6 +241,12 @@ and (max-device-width : 1024px) {
 		position: relative;
 		top: 20px;
 	}
+	footer .col-1{
+		border:none;
+	}
+	footer .col-2{
+		border:none;
+	}
 }
 @media all and (transform-3d), (-webkit-transform-3d) {
        .item{
