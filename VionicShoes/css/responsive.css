@@ -204,4 +204,9 @@ and (max-device-width : 1024px) {
     transform: translate3d(0,0,0);
       }
     }
+@media (min-width: 992px){
+.container {
+    width: 980px !important;
+}
+}
 

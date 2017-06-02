@@ -844,13 +844,23 @@ header.nav>li>a{
 }
 .thumbnail-position1{position: absolute; top: 83px; left: 356px; display:inline-block;	}
 .thumbnail-position2{position: absolute; top: 83px; left: 400px;}
-/** Mega menu web version**/
-.carousel-inner .item {
-  -webkit-transition-duration: 2s;
-  -moz-transition-duration: 2s;
-  -o-transition-duration: 2s;
-  transition-duration: 2s;
+.bot-links{
+	width:100%;
 }
+.bot-links ul li{
+	display:inline;
+	padding-left:5px;
+	
+}
+/** Mega menu web version**/
+/* .carousel-inner .item { */
+  /* -webkit-transition-duration: 1s; */
+  /* -moz-transition-duration: 1s; */
+  /* -o-transition-duration: 1s; */
+  /* transition-duration: 1s; */
+  
+/* } */
+
 
 
 
