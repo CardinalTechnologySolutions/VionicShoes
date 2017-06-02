@@ -200,7 +200,7 @@ and (max-device-width : 1024px) {
 		display: block;
 	} */
 	.video-text{
-		margin-top:0 !important;
+		margin-top:25px !important;
 		padding:0px !important;
 	}
 	.bg-footnotes .glyphicon-chevron-right {
