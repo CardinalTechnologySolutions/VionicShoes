@@ -9,6 +9,10 @@
 		width: 100%;
 		    box-shadow: inherit;
 	}
+	.img-tumbnail1 {
+    width: 60px;
+    height: 60px;
+}
 	.style-str-head {
 		margin-top: 3%;
 	}

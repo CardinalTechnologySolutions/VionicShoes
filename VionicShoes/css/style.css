@@ -886,11 +886,12 @@ header.nav>li>a{
 	
 }
 .bot-links ul li{
-	display:inline;
-	list-style:none;
-	padding:0 10px;
-	border-right:1px solid #ccc;
-	
+	display: inline;
+    list-style: none;
+    padding: 0 10px;
+    font-size: 11px;
+    color: #000;
+    border-right: 1px solid #ccc;
 }
 .text-right-icon {
     width: 100%;
