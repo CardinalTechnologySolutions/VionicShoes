@@ -83,6 +83,11 @@ h3{
  color:#fff;
  text-align:center;
 }
+h6{
+	color:#4b4240;
+}	text-decoration:none !important;
+	
+}
 h2 div{ 
  color:#ccc;
  font-size:18px !important;
@@ -315,7 +320,16 @@ p{
     font-size: 18px;
     color: #000;
     line-height: 24px;
-    margin: 15% 0 5% 0;
+    margin: 0 0 5% 0;
+    text-transform: uppercase;
+}
+.foot-notes{
+	text-align: center;
+    /* font-family: 'ATSackersHeavyGothic'; */
+    font-size: 18px;
+    color: #000;
+    line-height: 24px;
+    margin: 8% 0 5% 0;
     text-transform: uppercase;
 }
 .text-sb-title{
@@ -325,7 +339,7 @@ p{
 .img-tumbnail1{
 	border-radius:50%;
 	background:url(../images/Alice/alicetumb-1.jpg);
-	width:10%;
+	width:80%;
 	height:75px;
 	background-size: cover;
 }
@@ -385,6 +399,7 @@ p{
 .abt-text{
 	text-align:center;
 	margin-top:5%;
+	float: right;
 }
 .bold{
 	text-align:center;
@@ -415,6 +430,10 @@ p{
 	width:100%;
 	background-repeat:no-repeat;
 	margin:0 0 10% 0;
+}
+.slide .img-circle{
+	width:100%;
+	border-radius:50%;
 }
 .text-social-title a{
 	font-size:10px !important;
@@ -485,11 +504,14 @@ p{
 .view-article a:hover{
 	color:#ff4612;
 }
-.img-circle{
-	border: 1px solid red;
+.bx-pager img .img-circle{
     width: 70px;
     height: 70px;
 }
+.s-story-slider a.active .img-circle{
+	border: 1px solid red;
+}
+
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
@@ -509,13 +531,16 @@ blockquote p {
   display: inline;
 }
 .img-thumb-btm{
-	width:79px;
-	height:79px;
-	position:relative;
+    width: 93px;
+    height: 80px;
+    position: relative;
+    float: left;
 }
 .img-thumb-right{
-	width:80px;
-	height:50px;
+    width: 80px;
+    height: 50px;
+    float: left;
+    margin: 0 8px;
 }
 .thumb-bt-position{
 	margin:0 auto; 
@@ -866,6 +891,18 @@ header.nav>li>a{
 	padding:0 10px;
 	border-right:1px solid #ccc;
 	
+}
+.text-right-icon {
+    width: 100%;
+    float: left;
+}
+.bx-wrapper {
+    margin-top: 100px;
+}
+.bx-pager {
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 
