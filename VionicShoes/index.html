@@ -2,8 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, 
-          minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" href="#" type="image/png" sizes="16x16">
 		<title>Vionic Shoes</title>
 		<!----style-sheets: begin---->
@@ -68,7 +67,7 @@
 					<li class="drop-down">
 						<a href="#">Shop Women</a>
 					 
-						<div class="mega-menu fadeIn animated">
+						<div class="mega-menu ">
 							<div class="mm-6column">
 								<span class="left-images">
 								<img  src="https://4.bp.blogspot.com/-faF-AemPFUM/U4ryP7pQRsI/AAAAAAAAEvA/fZ-hskCSln4/s1600/Magento%2Bthemes.jpg">
@@ -76,7 +75,7 @@
 				</span>
 								<span class="categories-list">
 							<ul>
-							<span>Computer</span>
+							<span>Menu One</span>
 								<li>Desktops</li>
 								<li>Laptops</li>
 								<li>Tablets</li>
@@ -133,7 +132,7 @@
 				</span>
 								<span class="categories-list">
 							<ul>
-							<span>Computer</span>
+							<span>Menu Two</span>
 								<li>Desktops</li>
 								<li>Laptops</li>
 								<li>Tablets</li>
@@ -190,7 +189,7 @@
 				</span>
 								<span class="categories-list">
 							<ul>
-							<span>Computer</span>
+							<span>Menu THree</span>
 								<li>Desktops</li>
 								<li>Laptops</li>
 								<li>Tablets</li>
@@ -1050,10 +1049,10 @@
 			});
 			$(".drop-down").hover(
 				function(){
-					$('.mega-menu').addClass('display-on');
+					$('.mega-menu', this).addClass('display-on');
 				},
 				function(){
-					$('.mega-menu').removeClass('display-on');
+					$('.mega-menu', this).removeClass('display-on');
 				}
 			);
 		});	
