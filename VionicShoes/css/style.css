@@ -759,9 +759,10 @@ header .dropdown-menu {
 	padding: 2% 0 2% 21% !important;
 	top:33px;
 }
-.li-social a{
-	display:inline;
-	color:#fff;
+.li-social a {
+    display: inline !important;
+    color: #fff;
+    padding: 0 1px !important;
 }
 .nav-title-nl, .nav-title a {
     color: #ffffff;
@@ -814,7 +815,7 @@ header.nav>li>a{
 .li-img{
     position: absolute;
     width: 90px;
-    left: -80px;
+    left: -20px;
     top: 0px;
 }
 .li-head{
@@ -908,9 +909,13 @@ nav.menu {
 }
 .menu > ul li a, .xs-menu li a {
 	text-decoration: none;
-	color: #000;
-	 display:block;
-	 padding: 0px 24px;
+    display: block;
+    padding: 0px 24px;
+    font-family: MrsEavesOT-Roman;
+    font-size: 16px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 .menu > ul li a:hover {
 	color: #999;
@@ -950,7 +955,7 @@ text-decoration:none;
 }
 
 .mega-menu {
-   background: none repeat scroll 0 0 #888;
+   background: #524f4f;
     left: 0;
     margin-top: 0px;
     position: absolute;
@@ -1031,6 +1036,33 @@ margin-right:25px;
 .display-on{
 display:block;
  transition-duration: 0.9s;
+}
+.categories-list ul {
+    text-align: left;
+    padding-left: 60px;
+}
+.mega-menu ul li a {
+    color: #fff;
+	text-transform: none;
+    font-size: 12px;
+	font-family: 'Gotham-Book';
+}
+.mega-menu ul li a:hover {
+    color: #ff4612;
+}
+.li-social.social-icons {
+    float: left;
+    margin: 10px 5px 5px 5px;
+}
+.mb-view ul.nav.navbar-nav li a {
+    padding: 6px 0;
+}
+.mb-view ul.nav.navbar-nav li {
+    text-align: left;
+    padding-left: 35px;
+}
+.li-social {
+    padding-left: 15px;
 }
 
  /*MediaQuerys*/
