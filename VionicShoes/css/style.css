@@ -99,6 +99,12 @@ p{
 	margin-right:0px;
 	position:relative;
 }
+.shop-men{
+	padding: 2% 13% 2% 26% !important;
+}
+.dropdown .supportive-tech{
+	padding: 2% 0 2% 8% !important;
+}
 .navbar-default {
     background-color:transparent !important;
     border-color:transparent !important;
@@ -170,6 +176,10 @@ p{
 	font-size:24px !important;
 	padding:5px 10px;
 	font-family: 'Gotham A', 'Gotham B', "Helvetica Neue", Verdana, Arial, sans-serif;
+}
+.search-nav-web  a{
+	top: -5px !important;
+    color: #666 !important;
 }
 .pull-right  span a{
 	font-size:14px;
@@ -621,9 +631,11 @@ input.submit-caret {
 }
 .mega-dropdown-menu > li > ul > li > a {
   display: block;
+  font-family: 'Gotham-Book';
   color: #fff;
   padding: 3px 5px;
-  font-size:12px;
+  font-size:13px;
+  font-weight:400;
 }
 .mega-dropdown-menu > li ul > li > a:hover,
 .mega-dropdown-menu > li ul > li > a:focus {
@@ -685,9 +697,13 @@ header .btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:befo
     content: " ";
     margin: 0 auto !important;
 }
+header .navbar {
+   
+	}
 header .dropdown-menu {
     background-color: #4b4240 !important;
-	padding:0 10%;
+	opacity:0.9;
+	padding: 2% 0 2% 15% !important;
 	top:33px;
 }
 .li-social a{
