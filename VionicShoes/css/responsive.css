@@ -215,6 +215,12 @@ and (max-device-width : 1024px) {
 		top: 178px;
 		left: -21px;
 	}
+	.multi-item-carousel .bx-prev{
+		top:30%;
+	}
+	.multi-item-carousel .bx-next{
+		top:30%;
+	}
 	.style-str-head{
 		text-align:center;
 		font-size: 12px;
