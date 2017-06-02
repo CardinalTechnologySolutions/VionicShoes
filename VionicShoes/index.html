@@ -43,24 +43,24 @@
 			
 			
 			
-<div class="container custom-container">			
-<div class="navigation">
-			<div class="xs-menu-cont">
-			<a id="menutoggle"><i class="fa fa-align-justify"></i> </a>
-				<nav class="xs-menu displaynone">
-					<ul>
-						<li class="active">
-							<a href="#">Shop Women</a>
-						</li>
-						<li>
-							<a href="#">Shop Men</a>
-						</li>
-						<li>
-							<a href="#">Supportive Technology</a>
-						</li>
-					
-					</ul>
-				</nav>
+			<div class="container custom-container">			
+				<div class="navigation">
+					<div class="xs-menu-cont">
+						<a id="menutoggle"><i class="fa fa-align-justify"></i> </a>
+							<nav class="xs-menu displaynone">
+								<ul>
+									<li class="active">
+										<a href="#">Shop Women</a>
+									</li>
+									<li>
+										<a href="#">Shop Men</a>
+									</li>
+									<li>
+										<a href="#">Supportive Technology</a>
+									</li>
+								
+								</ul>
+							</nav>
 			</div>
 			<nav class="menu">
 				<ul>
@@ -1031,6 +1031,11 @@
 				} else {
 					$(this).siblings(':first').children(':first-child').clone().appendTo($(this));
 				}
+			});
+			
+			 $('.slider1').bxSlider({
+				auto:true,
+				pagerCustom: '#bx-pager'
 			});
 			
 			//responsive menu toggle
