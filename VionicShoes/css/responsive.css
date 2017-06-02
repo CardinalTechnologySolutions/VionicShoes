@@ -1,7 +1,7 @@
 @media only screen and (max-width: 767px) {
    .navbar-toggle {
 		float: left !important;
-		left: 8px !important;
+		left: 36px !important;
 		top: -78px !important;
 	}
 	.bx-circle{display:none;}
