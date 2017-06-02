@@ -40,7 +40,7 @@
 		display:none;
 	}
 	.mb-view{
-		display:black;
+		display:block;
 	}
 	.s-story-slider .carousel-indicators li{
 		display: inline-block;
