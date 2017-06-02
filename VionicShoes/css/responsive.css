@@ -71,6 +71,9 @@
 		line-height: 30px;
 		font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Verdana', 'Arial', 'sans-serif';
 	}
+	.bg-big {
+    background: #e7f7fd;
+}
 }
 @media only screen and (max-width: 480px){
 	.bg-footnotes .glyphicon-chevron-left {
