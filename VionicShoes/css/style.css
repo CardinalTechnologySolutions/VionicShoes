@@ -847,11 +847,7 @@ header.nav>li>a{
 .bot-links{
 	width:100%;
 }
-.bot-links ul li{
-	display:inline;
-	padding-left:5px;
-	
-}
+
 /** Mega menu web version**/
 /* .carousel-inner .item { */
   /* -webkit-transition-duration: 1s; */
@@ -860,7 +856,9 @@ header.nav>li>a{
   /* transition-duration: 1s; */
   
 /* } */
-
+section{
+	margin:0px;
+}
 
 
 
