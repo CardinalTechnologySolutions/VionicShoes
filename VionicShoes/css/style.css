@@ -189,7 +189,7 @@ p{
     height: 30px;
     width: 30px;
     top: 50%;
-	right: -4%;
+	right: 0%;
 }
 .carousel-inner > .item.prev.right > div:nth-child(2),
 .carousel-inner > .item.prev.right > div:nth-child(3){
@@ -486,8 +486,9 @@ p{
 	color:#ff4612;
 }
 .img-circle{
-	border:1px solid #ccc;
-	width:100%;
+	border: 1px solid red;
+    width: 70px;
+    height: 70px;
 }
 blockquote {
   background: #f9f9f9;
@@ -856,9 +857,15 @@ header.nav>li>a{
   /* transition-duration: 1s; */
   
 /* } */
-section{
-	margin:0px;
+.bot-links ul {
+	
 }
-
+.bot-links ul li{
+	display:inline;
+	list-style:none;
+	padding:0 10px;
+	border-right:1px solid #ccc;
+	
+}
 
 
