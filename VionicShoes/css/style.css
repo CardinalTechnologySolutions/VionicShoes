@@ -338,44 +338,9 @@ p{
 }
 .img-tumbnail1{
 	border-radius:50%;
-	background:url(../images/Alice/alicetumb-1.jpg);
-	width:80%;
+	width:75px;
 	height:75px;
-	background-size: cover;
-}
-.img-tumbnail2{
-	border-radius:50%;
-	background:url(../images/Hayet/hayet1-thumbnail.png);
-	width:10%;
-	height:75px;
-	background-size: cover;
-}
-.img-tumbnail3{
-	border-radius:50%;
-	background:url(../images/Jamie/jamie1-thumbnail.png);
-	width:10%;
-	height:70px;
-	background-size: cover;
-}
-.img-tumbnail4{
-	border-radius:50%;
-	background:url(../images/Lavenda/lavenda1-thumbnail.png);
-	width:10%;
-	height:70px;
-	background-size: cover;
-}
-.img-tumbnail5{
-	border-radius:50%;
-	background:url(../images/Lydia/lydia1thumbnail.png);
-	width:10%;
-	height:70px;
-	background-size: cover;
-}
-.img-tumbnail6{
-	border-radius:50%;
-	background:url(../images/Abigail/abigail1-thumbnail.png);
-	width:10%;
-	height:70px;
+	margin-left:5px;
 	background-size: cover;
 }
 .img-slider-wh{
@@ -389,6 +354,10 @@ p{
 	background-position:bottom;
 	width:50%;
 	box-shadow: 2px 0 2px #ccc;
+}
+.bg-img-thumb{
+	margin:0 auto;
+	display:table;
 }
 .text-right{
 	text-align:center;
