@@ -54,7 +54,6 @@
 }
 body {
     background: #fff;
-    text-align: center;
     font-family: 'Gotham-Book';
     font-weight: 300;
     font-style: normal;
@@ -102,11 +101,21 @@ p{
 	line-height:18px;
 	color:#000;
 }
+a {
+    color: rgba(234, 105, 83, 1);
+    text-decoration: none;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+	list-style:none;
+}
 .header-right{
 	padding:3% 8%;
 	margin-right:0px;
 	position:relative;
 }
+.
 
 .shop-men{
 	padding: 2% 13% 2% 26% !important;
@@ -260,15 +269,7 @@ p{
     float: right;
     width: 100%;
 }
-.search-button {
-    position: absolute;
-    top: 21px;
-    right: 3px;
-    font-size: 21px;
-    border: 0;
-    background: none;
-    color: #666;
-}
+
 .bx-circle{
     width: 38%;
     height: 106%;

@@ -42,6 +42,111 @@
 	.mb-view{
 		display:black;
 	}
+	.footer .links, .footer .block-subscribe {
+		text-transform: uppercase;
+		font-size: 12px;
+		text-align: left;
+    }
+	.footer .links a {
+      color: #636363;
+	  text-decoration:none;
+	
+    }
+	.footer a:hover{
+		color:#ccc;
+	}
+	.footer{
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+		padding: 10px 0 107px 0;
+		box-sizing: content-box;
+	}
+	.footer .block-title, .footer address {
+        color: rgba(234, 105, 83, 1);
+    }
+	.links-btm{
+		
+	}
+	.links{
+		text-align:left;
+	}
+	.links ul{
+		list-style:none;
+		text-align:left;
+		padding:0;
+	}
+	.links ul li{
+		list-style:none;
+		text-align:left !important;
+	}
+	.links ul li a{
+		color:#ccc;
+	}
+	.links ul li a:hover{
+		color:#ccc;
+	}
+	.links li a{
+		list-style:none;
+		text-align:left;
+	}
+	.mb-view .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+		background-color:transparent !important;
+		border-color:none !important;
+		
+	}
+	.mb-view .lable{
+		float:left;
+		padding:0 0 0 10px;
+	}
+	.search-button {
+    position:relative
+    top: 120px;
+    right: 3px;
+    font-size: 21px;
+    border: 0;
+    background: none;
+    color: #666;
+    }
+	.menu-text{
+		float:left;
+		padding:0 0 0 5px;
+	}
+	.bars{float:left;}
+	.navbar-default .navbar-toggle{
+		border: none !important;
+		top: 21px !important;
+		position: relative;
+		border: none !important;
+		position: relative;
+		padding:0px;
+		margin-top:0;
+		margin-bottom:0;
+		float:left;
+	}
+	.img-banner {
+        top: -23px;
+	}
+	.spec-cart{
+	   padding: 26px 0 29px 5px;	
+	}
+	.brdr-icon-1{
+		border-right: 1px solid #ccc;
+		border-left: 1px solid #ccc;
+        padding: 26px 0 29px 0;
+	}
+	.brdr-icon{
+		border-right: 1px solid #ccc;
+        padding: 26px 0 29px 0;
+	}
+	.brdr-btn{
+		border-right:1px solid #ccc !important;
+	}
+	.navbar-header{
+		border-top:1px solid #ccc;
+		border-bottom:1px solid #ccc;
+		
+		
+	}
 	.s-story-slider .carousel-indicators li{
 		display: inline-block;
 		width: 35px;
@@ -99,9 +204,6 @@
 	}	
 	.multi-item-carousel .carousel-inner {
 		width: 100% !important;
-	}
-	.slide .img-circle {
-		width: 80%;
 	}
 	.view-article {
 		width: 100%;
