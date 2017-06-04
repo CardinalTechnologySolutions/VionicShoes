@@ -2,12 +2,7 @@
     .slide .img-circle {
     width: 100%;
  	}
-	.padding-left {
-		padding-left:30px;
-	}
-	.padding-right {
-		padding-right:30px;
-	}
+
    .navbar-toggle {
 		float: left !important;
 		left: 36px !important;
@@ -149,16 +144,16 @@
         top: -23px;
 	}
 	.spec-cart{
-	   padding: 26px 0 29px 5px;	
+	   padding: 26px 0 20px 5px;	
 	}
 	.brdr-icon-1{
 		border-right: 1px solid #ccc;
 		border-left: 1px solid #ccc;
-        padding: 26px 0 29px 0;
+        padding: 26px 0 20px 0;
 	}
 	.brdr-icon{
 		border-right: 1px solid #ccc;
-        padding: 26px 0 29px 0;
+        padding: 26px 0 20px 0;
 	}
 	.brdr-btn{
 		border-right:1px solid #ccc !important;
@@ -203,18 +198,23 @@
 		display: none;
 	}
 	.bx-wrapper .bx-prev {
-		left: 10px !important;
-		background: url(../images/left-arrow.png) no-repeat !important;
-		top: 30% !important;
+    left: 10px !important;
+    background: url(../images/left-arrow.png) no-repeat !important;
+    top: 30% !important;
+    background-size: 100% !important;
+    width: 20px !important;
 	}
 	.bx-wrapper .bx-next {
 		right: 10px !important;
 		background: url(../images/right-arrow.png) no-repeat !important;
 		top: 30% !important;
+		background-size: 100% !important;
+		width: 20px !important;
 	}
 	.bg-footnotes .multi-item-carousel {
-		height: 440px;
-		overflow: hidden;
+    height: 450px;
+    overflow: hidden;
+    padding: 0 20px;
 	}
 	a.right.carousel-control.bx-next {
 	top: 30% !important;
@@ -238,6 +238,9 @@
 	.footer-container {
     display: block;
 	}
+	.bx-wrapper {
+    margin-top: 40px;
+}
 }
 @media only screen and (max-width: 480px){
 	.bg-footnotes .glyphicon-chevron-left {
