@@ -58,9 +58,15 @@
 	.footer{
 		border-top: 1px solid #ccc;
 		border-bottom: 1px solid #ccc;
-		padding: 10px 0 107px 0;
+		padding: 23px 0 146px 0;
 		box-sizing: content-box;
 	}
+	
+	.footer .links li {
+		word-break: break-all;
+		line-height: 1.4;
+		padding: 4px 0;
+    }
 	.footer .block-title, .footer address {
         color: rgba(234, 105, 83, 1);
     }
@@ -88,6 +94,10 @@
 	.links li a{
 		list-style:none;
 		text-align:left;
+	}
+	.copyright{
+	  margin:2% 0;
+	  text-align:center;
 	}
 	.mb-view .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
 		background-color:transparent !important;
