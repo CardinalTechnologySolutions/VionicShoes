@@ -753,7 +753,7 @@ input.submit-caret {
 }
 .logo-container {
     text-align: center;
-    margin-bottom: 14px;
+    margin-bottom: 11px;
     float: left;
     width: 100%;
     margin-top: -5px;
@@ -1012,7 +1012,7 @@ text-decoration:none;
     margin-top: 0px;
     position: absolute;
     width: 100%;
-	padding:15px;
+	padding:1% 1% 1% 10%;
 	display:none;
 	 transition-duration: 0.9s;
 	     z-index: 9;
