@@ -341,11 +341,12 @@ ol, ul {
 	text-transform:uppercase;
 }
 .img-tumbnail1{
-	border-radius:50%;
-	width:75px;
-	height:75px;
-	margin-left:5px;
-	background-size: cover;
+	border-radius: 50%;
+    width: 76px;
+    height: 76px;
+    margin-left: 5px;
+    background-size: cover;
+	opacity:0.3;
 }
 .img-slider-wh{
 	height:auto; 
@@ -471,6 +472,7 @@ ol, ul {
 }
 .s-story-slider a.active .img-circle{
 	border: 1px solid red;
+	opacity:1;
 }
 
 blockquote {
