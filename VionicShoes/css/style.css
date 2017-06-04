@@ -91,10 +91,6 @@ h6{
 	text-decoration:none !important;
 }	
 
-h2 div{ 
- color:#ccc;
- font-size:18px !important;
-}
 p{
 	font-size:14px;
 	font-family: 'Gotham-Book';
@@ -111,7 +107,7 @@ ol, ul {
 	list-style:none;
 }
 .header-right{
-	padding:3% 8%;
+	padding:3%;
 	margin-right:0px;
 	position:relative;
 }
@@ -237,7 +233,7 @@ ol, ul {
 .pull-right  span a{
 	font-size:14px;
 	text-transform:uppercase;
-	color: #636363;
+	color: #999999;
     line-height: 1.5;
 	padding: 5px 13px;
 	font-family: 'Gotham A', 'Gotham B', "Helvetica Neue", Verdana, Arial, sans-serif;
@@ -369,11 +365,38 @@ ol, ul {
 	/* font-family: 'ATSackersHeavyGothic'; */
 	font-size:18px;
 	color:#434242;
+	margin-bottom: 25px;
+	position:relative;
+}
+.text-right::before {
+	position: absolute;
+    content: "";
+    background: url(../images/doubleqoute1.png) no-repeat;
+    width: 30px;
+    height: 22px;
+    left: -30px;
+    top: 0;
+}
+.text-right::after {
+    position: absolute;
+    content: "";
+    background: url(../images/doubleqoute2.png) no-repeat;
+    width: 30px;
+    height: 22px;
+    right: -25px;
+    bottom: -15px;
+}
+.text-right b {
+    margin-bottom: 15px;
+    float: left;
+	width: 100%;
 }
 .abt-text{
 	text-align:center;
 	margin-top:5%;
 	float: right;
+	padding-right: 25px;
+	padding-left: 25px;
 }
 .bold{
 	text-align:center;
@@ -500,8 +523,7 @@ blockquote p {
     float: left;
 }
 .img-thumb-right{
-    width: 80px;
-    height: 50px;
+    height: 60px;
     float: left;
     margin: 0 8px;
 }
@@ -1110,7 +1132,17 @@ display:block;
     max-width: 100%;
     height: auto;
 }
-
+.bg-big h2 {
+    line-height: 20px;
+    font-weight: bold;
+}
+.bg-big h2 span {
+    color: #989696;
+}
+span.text_sb-title {
+    font-size: 20px;
+    color: #000;
+}
  /*MediaQuerys*/
  @media (max-width: 600px) {
 	.menu {
