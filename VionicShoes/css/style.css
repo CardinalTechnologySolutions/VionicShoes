@@ -741,8 +741,19 @@ input.submit-caret {
     font-family: 'MrsEavesOT-Italic';
     font-size: 20px;
     font-weight: 400;
-    color: #666;
+    color: #686158;
 }
+.top-header-message a {
+    font-family: 'MrsEavesOT-Italic';
+    font-size: 20px;
+    font-weight: 400;
+    color: #686158;
+}
+.top-header-message a:hover {
+    color: #ea6953;
+    text-decoration: none;
+}
+
 .top-header-message {
     float: left;
     width: 100%;
@@ -902,13 +913,14 @@ header.nav>li>a{
 }
 .navigation ul {
     margin: 0;
+	padding: 0;
 }
 .navigation:after, .navigation:before {
 	content: "";
 	clear : both;
 }
 nav.menu {
- 	min-height: 45px;
+ 	min-height: auto;
 	height: 100%;
 	text-align:center;
 }
@@ -923,12 +935,15 @@ nav.menu {
 .menu > ul li a, .xs-menu li a {
 	text-decoration: none;
     display: block;
-    padding: 0px 10px 5px 44px;
+    padding: 5px 15px 0px 15px;
     font-family: MrsEavesOT-Roman;
     font-size: 16px;
     color: #000000;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+.menu > ul li a:last-child {
+    padding: 0;
 }
 .menu > ul li a:hover {
 	color: #999;
@@ -1076,6 +1091,22 @@ display:block;
 }
 .li-social {
     padding-left: 15px;
+}
+.footer-container {
+    display: none;
+}
+.view-article {
+    float: left;
+    width: 100%;
+}
+.copyright {
+    float: left;
+    width: 100%;
+    padding-top: 15px;
+}
+.vionic-logo {
+    max-width: 100%;
+    height: auto;
 }
 
  /*MediaQuerys*/

@@ -1,4 +1,13 @@
 @media only screen and (max-width: 767px) {
+    .slide .img-circle {
+    width: 100%;
+ 	}
+	.padding-left {
+		padding-left:30px;
+	}
+	.padding-right {
+		padding-right:30px;
+	}
    .navbar-toggle {
 		float: left !important;
 		left: 36px !important;
@@ -37,6 +46,9 @@
 		font-size: 30px !important;
 	}
 	footer{
+		display:none;
+	}
+	.footer-bot{
 		display:none;
 	}
 	.mb-view{
@@ -99,10 +111,10 @@
 	  margin:2% 0;
 	  text-align:center;
 	}
-	.mb-view .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	.mb-view .navbar-toggle:hover{
 		background-color:transparent !important;
 		border-color:none !important;
-		
+		float: left !important;		
 	}
 	.mb-view .lable{
 		float:left;
@@ -205,12 +217,16 @@
 		overflow: hidden;
 	}
 	a.right.carousel-control.bx-next {
-		right: 10px;
-		top: 30%;
+	top: 30% !important;
+    right: 5px;
+    width: 20px;
+    background-size: 100% !important;
 	}
 	a.left.carousel-control.bx-prev  {
-		top: 30% !important;
-		left: 10px;
+	left: 5px;
+    top: 30%;
+    background-size: 100% !important;
+    width: 20px;
 	}	
 	.multi-item-carousel .carousel-inner {
 		width: 100% !important;
@@ -218,6 +234,9 @@
 	.view-article {
 		width: 100%;
 		float: left;
+	}
+	.footer-container {
+    display: block;
 	}
 }
 @media only screen and (max-width: 480px){
@@ -390,9 +409,5 @@ and (max-device-width : 1024px) {
 		transform: translate3d(0,0,0);
       }
 }
-@media (min-width: 992px){
-	.container {
-		width: 980px !important;
-	}
-}
+
 
