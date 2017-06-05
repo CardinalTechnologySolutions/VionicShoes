@@ -86,10 +86,17 @@ h3{
  color:#fff;
  text-align:center;
 }
-h6{
-	color:#4b4240;
-	text-decoration:none !important;
+.bx-pager a h6 {
+    font-size: 14px;
+    color: #4b4240;
+    margin: 7px 0;
 }	
+.bx-pager a:hover {
+    text-decoration:none;
+}
+.bx-pager  img:hover {
+    opacity: 1;
+}
 
 p{
 	font-size:14px;
@@ -293,30 +300,27 @@ ol, ul {
     top: 30px;
 }
 .img-banner {
-	position:relative;
-    border-top: 1px solid #34d304;
-	border-bottom: 1px solid #34d304;
+	position: relative;
+    border-top: 2px solid #e5e5e5;
     box-sizing: border-box;
-	top: 0;
-    overflow: hidden;
 }
 .circle-img-box {
     display: flex;
     justify-content: center;
 }
 .style-str-head{
-	text-align: center;
-    /* font-family: 'ATSackersHeavyGothic'; */
-    font-size: 18px;
+    text-align: center;
+    font-family: 'ATSackersHeavyGothic';
+    font-size: 20px;
     color: #000;
-    line-height: 24px;
-    margin: 5% 0 5% 0;
-    padding: 0 0 5% 0;
+    line-height: 28px;
+    margin: 105px 0 60px 0;
+    padding: 0;
     text-transform: uppercase;
 }
 .foot-head{
 	text-align: center;
-    /* font-family: 'ATSackersHeavyGothic'; */
+    font-family: 'ATSackersHeavyGothic';
     font-size: 18px;
     color: #000;
     line-height: 24px;
@@ -325,7 +329,7 @@ ol, ul {
 }
 .foot-notes{
 	text-align: center;
-    /* font-family: 'ATSackersHeavyGothic'; */
+    font-family: 'ATSackersHeavyGothic';
     font-size: 18px;
     color: #000;
     line-height: 24px;
@@ -340,9 +344,11 @@ ol, ul {
 	border-radius: 50%;
     width: 76px;
     height: 76px;
-    margin-left: 5px;
+    margin: 0 11px;
     background-size: cover;
 	opacity:0.3;
+	border: 1px solid #ff4612;
+	transition: all 0.5s ease;
 }
 .img-slider-wh{
 	height:auto; 
@@ -453,7 +459,7 @@ ol, ul {
     height: 70px;
 }
 .s-story-slider a.active .img-circle{
-	border: 1px solid red;
+	border: 0;
 	opacity:1;
 }
 
@@ -836,7 +842,7 @@ header.nav>li>a{
  -webkit-box-pack: center;
 }
 .bx-wrapper {
-    margin-top: 100px;
+    margin-top: 93px;
 }
 .bx-pager {
     text-align: center;
@@ -848,6 +854,25 @@ header.nav>li>a{
     justify-content: center;
 	-webkit-box-pack: center;
 	width: 100%;
+	position:relative;
+}
+.bx-pager::before {
+    position: absolute;
+    content: "";
+    left: 150px;
+    width: 40px;
+    height: 4px;
+    background: #fee7e1;
+    top: 25px;
+}
+.bx-pager::after {
+    position: absolute;
+    content: "";
+    left: 150px;
+    width: 4px;
+    height: 102px;
+    background: #fee7e1;
+    top: 25px;
 }
 
 .multi-item-carousel .bx-prev {
@@ -1082,7 +1107,7 @@ display:block;
     color: #989696;
 }
 span.text_sb-title {
-    font-size: 20px;
+    font-size: 14px;
     color: #000;
 }
 .banner-bg {
