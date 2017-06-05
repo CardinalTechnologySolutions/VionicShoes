@@ -12,6 +12,22 @@
 		<link href="lib/font/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 		<link href="lib/boxslider/css/jquery.bxslider.css" rel="stylesheet" type="text/css"/>
 		<!----style-sheets: end---->
+		
+		<script>
+$(document).ready(function(){
+			
+			$('#myCarousel').carousel({
+  interval: 40000
+});
+
+$('.carousel .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+		});
+		</script>
 	</head>
 	<body>
 		<!--top header begin-->
@@ -261,6 +277,7 @@
 				  </header>
 		<!---web version top header---> 
 		 
+
 			<section class="mb-view">
 			<div class="container custom-container">
 					<div class="col-md-6">
@@ -325,7 +342,7 @@
 		<!---top banner start----->
 		<div class="container-fluid img-banner">
 			<div class="row">	
-				<img class="img-responsive" src="images/home-top-banner-img.png" alt="banner.png">
+				<img class="banner-bg" src="images/home-top-banner-img.png" alt="banner.png">
 			</div>
 			<div class="circle-img-box">				
 				<div class="bx-circle">
@@ -632,6 +649,48 @@
 		</section>	
 		<!----Video section end--->
 		
+<div class="container">
+    <div class="col-md-12">
+        <div class="carousel slide" id="myCarousel">
+          <div class="carousel-inner">
+                <div class="item active">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <a href="#"><img src="http://lorempixel.com/400/200/sports" class="img-responsive">1</a></div>
+                </div>
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <a href="#"><img src="http://lorempixel.com/400/200/" class="img-responsive">2</a></div>
+                </div>
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <a href="#"><img src="http://lorempixel.com/400/200/sports" class="img-responsive">3</a></div>
+                </div>
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <a href="#"><img src="http://lorempixel.com/400/200/" class="img-responsive">4</a></div>
+                </div>
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <a href="#"><img src="http://lorempixel.com/400/200/sports" class="img-responsive">5</a></div>
+                </div>
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <a href="#"><img src="http://lorempixel.com/400/200/" class="img-responsive">6</a></div>
+                </div>
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <a href="#"><img src="http://lorempixel.com/400/200/sports" class="img-responsive">7</a></div>
+                </div>
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <a href="#"><img src="http://lorempixel.com/400/200/" class="img-responsive">8</a></div>
+                </div>
+          </div>
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+        </div>
+    </div>
+</div>
 		<!----footnotes section start--->
 		<section class="bg-footnotes">
 			<div class="container custom-container">

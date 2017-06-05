@@ -425,7 +425,7 @@ ol, ul {
 .bg-footnotes{
 	background:url(../images/bg-pink.png);
 	width:100%;
-	background-repeat:no-repeat;
+    background-repeat: repeat-x;
 	margin:0 0 10% 0;
 }
 .slide .img-circle{
@@ -438,48 +438,7 @@ ol, ul {
 	line-height:30px;
 }
 /*----slider-btm----*/
-.multi-item-carousel .carousel-inner{
-	width:95% !important;
-}
-.multi-item-carousel .carousel-inner > .item {
-  -webkit-transition: 500ms ease-in-out left;
-  transition: 500ms ease-in-out left;
-}
-.multi-item-carousel .carousel-inner .active.left {
-  left: -33%;
-}
-.multi-item-carousel .carousel-inner .active.right {
-  left: 33%;
-}
-.multi-item-carousel .carousel-inner .next {
-  left: 33%;
-}
-.multi-item-carousel .carousel-inner .prev {
-  left: -33%;
-}
-.multi-item-carousel .carouse-control.left,
-.multi-item-carousel .carouse-control.right {
-  background-image: none;
-}
-.bg-footnotes .carousel-control{
-	bottom:248px;
-}
-.bg-footnotes .carousel-control.left{
-	background:none;
-}
-.bg-footnotes .carousel-control.right{
-	background:none;
-}
-.bg-footnotes .glyphicon-chevron-left {
-    color: #ff4612;
-    font-size: 38px !important;
-    left: -70px;
-}
-.bg-footnotes .glyphicon-chevron-right {
-    color: #ff4612;
-    font-size: 38px !important;
-    right:0;
-}
+
 .view-article a{
 	color:#ff4612;
 	font-family: 'MrsEavesOT-Italic';
@@ -498,24 +457,7 @@ ol, ul {
 	opacity:1;
 }
 
-blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
-}
-blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
-blockquote p {
-  display: inline;
-}
+
 .img-thumb-btm{
     width: 93px;
     height: 80px;
@@ -1143,6 +1085,11 @@ span.text_sb-title {
     font-size: 20px;
     color: #000;
 }
+.banner-bg {
+	max-width:100%;
+	height:auto;
+	width:100%;
+}
  /*MediaQuerys*/
  @media (max-width: 600px) {
 	.menu {
@@ -1189,4 +1136,13 @@ span.text_sb-title {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
+
+
+.carousel-inner .active.left { left: -33%; }
+.carousel-inner .next        { left:  33%; }
+.carousel-inner .prev        { left: -33%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}
+.item:not(.prev) {visibility: visible;}
+.item.right:not(.prev) {visibility: hidden;}
+.rightest{ visibility: visible;}
 
