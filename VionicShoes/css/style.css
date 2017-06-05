@@ -924,24 +924,24 @@ header.nav>li>a{
 }
 
 .multi-item-carousel .bx-prev {
-    left: -60px;
+    left: -50px;
     background: url(../images/left-arrow.png) no-repeat !important;
     width: 30px;
     height: 52px;
     position: absolute;
-    top: 25%;
+    top: 26.1%;
     margin-top: -16px;
     outline: 0;
     text-indent: -9999px;
     z-index: 9999;
 }
 .multi-item-carousel .bx-next {
-    right: -60px;
+    right: -30px;
     background: url(../images/right-arrow.png) no-repeat !important;
     width: 30px;
     height: 52px;
     position: absolute;
-    top: 25%;
+    top: 26.1%;
     margin-top: -16px;
     outline: 0;
     text-indent: -9999px;
