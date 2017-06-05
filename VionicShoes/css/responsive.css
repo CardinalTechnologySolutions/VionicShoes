@@ -456,13 +456,13 @@ and (max-device-width : 1024px) {
 		left: -21px;
 	}
 	.multi-item-carousel .bx-prev{
-    top: 34.6%;
+    top: 30.5%;
     left: -17px;
     background-size: 70% !important;
 	}
 	.multi-item-carousel .bx-next{
-    top: 34.6%;
-    right: -25px;
+	top: 30.5%;
+    right: -23px;
     background-size: 70% !important;
 	}
 
