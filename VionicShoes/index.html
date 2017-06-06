@@ -861,59 +861,62 @@
     <script src="lib/boxslider/js/jquery.bxslider.js" type="text/javascript"></script>
     <script type="text/javascript">		
       $(document).ready(function(){
-      var thumbClicked = false;
-      // Instantiate the Bootstrap carousel for top style stories
-      $('.multi-item-carousel').carousel({			 
-      interval: false,
-      });
-      
-      // for every slide in carousel, copy the next slide's item in the slide.
-      // Do the same for the next, next item.
-      /* Idea is to present more than one items per slider area */
-      $('.multi-item-carousel .item').each(function(){
-      
-      var next = $(this).next();
-      if (!next.length) {
-      next = $(this).siblings(':first');
-      }
-      next.children(':first-child').clone().appendTo($(this));
-      if (next.next().length>0) {
-      next.next().children(':first-child').clone().appendTo($(this));
-      } else {
-      $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-      }
-      });
-      
-      $('.slider1').bxSlider({
-      pagerCustom: '#bx-pager'
-      });
-      
-      //responsive menu toggle
-      $("#menutoggle").click(function() {
-      $('.xs-menu').toggleClass('displaynone');
-      });
-      //add active class on menu
-      $('ul li').click(function(e) {
-      e.preventDefault();
-      $('li').removeClass('active');
-      $(this).addClass('active');
-      });
-      $(".drop-down").hover(
-      function(){
-      $('.mega-menu', this).addClass('display-on');
-      },
-      function(){
-      $('.mega-menu', this).removeClass('display-on');
-      }
-      );
-      
-      $("div.bg-img-thumb img").off("click").on("click", function(){
-      thumbClicked = true;
-      var id = $(this).attr('id');
-      imgUrl = "images/"+id.split("-")[0]+"/"+id+".png";
-      var bigImageId = id.split("-")[0]+"-big-img";			
-      $("#"+bigImageId).attr("src", imgUrl);
-      });
+		  var thumbClicked = false;
+		  // Instantiate the Bootstrap carousel for top style stories
+		  $('.multi-item-carousel').carousel({			 
+			interval: false,
+		  });
+		  
+		  // for every slide in carousel, copy the next slide's item in the slide.
+		  // Do the same for the next, next item.
+		  /* Idea is to present more than one items per slider area */
+		  $('.multi-item-carousel .item').each(function(){		  
+			  var next = $(this).next();
+			  if (!next.length) {
+			  next = $(this).siblings(':first');
+			  }
+			  next.children(':first-child').clone().appendTo($(this));
+			  if (next.next().length>0) {
+			  next.next().children(':first-child').clone().appendTo($(this));
+			  } else {
+			  $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+			  }
+		  });
+		  
+		  $('.slider1').bxSlider({
+			pagerCustom: '#bx-pager'
+		  });
+		  
+		  //responsive menu toggle
+		  $("#menutoggle").click(function() {
+			$('.xs-menu').toggleClass('displaynone');
+		  });
+		  //add active class on menu
+		  $('ul li').click(function(e) {
+			  e.preventDefault();
+			  $('li').removeClass('active');
+			  $(this).addClass('active');
+		  });
+		  $(".drop-down").hover(
+			  function(){
+				$('.mega-menu', this).addClass('display-on');
+			  },
+			  function(){
+				$('.mega-menu', this).removeClass('display-on');
+			  }
+		  );
+		  
+		  $("div.bg-img-thumb img").off("click").on("click", function(){
+			  thumbClicked = true;
+			  /*Id of the thumb nail image clicked on style stories slider*/
+			  var id = $(this).attr('id');
+			  /*Url to the big image of this thumbnail*/
+			  imgUrl = "images/"+id.split("-")[0]+"/"+id+".png";
+			  /*Big image reference, which src will be replaced with new big image of respective thumbnail clicked*/
+			  var bigImageId = id.split("-")[0]+"-big-img";		
+			  /* Replace big image src with big image of the thumnail clicked */			  
+			  $("#"+bigImageId).attr("src", imgUrl);
+		  });
       });	
     </script>
   </body>
