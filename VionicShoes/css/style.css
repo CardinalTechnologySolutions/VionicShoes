@@ -67,17 +67,17 @@ h3 {
 	text-decoration:uppercase;
 }
 
-.bx-pager a h6 {
+.s-story-slider .bx-pager a h6 {
 	font-size: 14px;
 	color: #4b4240;
 	margin: 7px 0;
 }
 
-.bx-pager a:hover {
+.s-story-slider .bx-pager a:hover {
 	text-decoration: none;
 }
 
-.bx-pager img:hover {
+.s-story-slider .bx-pager img:hover {
 	opacity: 1;
 }
 
@@ -513,7 +513,7 @@ ul {
 	opacity: 0.7;
 }
 
-.bx-pager img .img-circle {
+.s-story-slider .bx-pager img .img-circle {
 	width: 70px;
 	height: 70px;
 }
@@ -1100,7 +1100,7 @@ header.nav>li>a {
     margin: auto;
 }
 
-.bx-pager::before {
+.s-story-slider .bx-pager::before {
 	position: absolute;
 	content: "";
 	left: 0px;
@@ -1110,7 +1110,7 @@ header.nav>li>a {
 	top: 25px;
 }
 
-.bx-pager::after {
+.s-story-slider .bx-pager::after {
 	position: absolute;
 	content: "";
 	left: 0px;
@@ -1448,7 +1448,7 @@ span.text_sb-title {
 	width: 100%;
 }
 
-.bx-pager a.active {
+.s-story-slider .bx-pager a.active {
 	text-decoration: none;
 }
 
