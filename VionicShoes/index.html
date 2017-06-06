@@ -939,6 +939,8 @@
 			  var bigImageId = id.split("-")[0]+"-big-img";		
 			  /* Replace image src with big image of the thumbnail clicked */			  
 			  $("#"+bigImageId).attr("src", imgUrl);
+			  $(this).siblings('img').removeClass('active-thumb');
+			  $(this).addClass('active-thumb');
 		  });
       });	
     </script>
