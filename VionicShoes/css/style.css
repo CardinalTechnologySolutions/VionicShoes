@@ -64,6 +64,7 @@ h3 {
 	line-height: 24px;
 	color: #fff;
 	text-align: center;
+	text-decoration:uppercase;
 }
 
 .bx-pager a h6 {
@@ -387,6 +388,7 @@ ul {
 	opacity: 0.3;
 	border: 1px solid #ff4612;
 	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
 }
 
 .bg-big {
@@ -468,6 +470,7 @@ ul {
 	border: 1px solid #ccc;
 	position: relative;
 	margin-top: 17px;
+    text-decoration:uppercase;
 }
 
 .bg-footnotes {
@@ -501,6 +504,7 @@ ul {
 	float: left;
 	width: 100%;
 	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
 }
 
 .view-article a:hover {
@@ -602,6 +606,7 @@ footer .col-1 a:hover {
 	color: #fff;
 	text-align: center;
 	padding: 2% 0;
+	text-transform:uppercase;
 }
 
 footer .top-pad {
@@ -670,6 +675,7 @@ footer .col-2 p {
 	line-height: 18px;
 	text-align: center;
 	color: #fff;
+	text-transform:uppercase;
 }
 
 footer .col-3 {
@@ -722,6 +728,7 @@ input.submit-caret {
 	line-height: 180%;
 	font-family: 'Gotham-Book';
 	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
 }
 
 .aqua-links a:hover {
@@ -1059,6 +1066,7 @@ header.nav>li>a {
 	padding-top: 35px !important;
 	box-shadow: 0px 0px 50px 4px #efecec;
 	margin-top: 40px;
+	background:#fff;
 }
 
 .bx-wrapper:before {
@@ -1084,12 +1092,14 @@ header.nav>li>a {
 	-webkit-box-pack: center;
 	width: 100%;
 	position: relative;
+	max-width: 690px;
+    margin: auto;
 }
 
 .bx-pager::before {
 	position: absolute;
 	content: "";
-	left: 244px;
+	left: 0px;
 	width: 40px;
 	height: 4px;
 	background: #fee7e1;
@@ -1099,7 +1109,7 @@ header.nav>li>a {
 .bx-pager::after {
 	position: absolute;
 	content: "";
-	left: 240px;
+	left: 0px;
 	width: 4px;
 	height: 118px;
 	background: #fee7e1;
@@ -1391,6 +1401,7 @@ ul.sub-nav-ul {
 	line-height: 26px;
 	font-family: 'SackersGothicStd-Medium';
 	margin-bottom: 70px;
+	text-transform:uppercase;
 }
 
 .bg-big h2 span {
@@ -1406,6 +1417,7 @@ ul.sub-nav-ul {
 	font-family: 'Gotham-Book';
 	margin-top: 40px;
 	line-height: 24px;
+	text-transform:uppercase;
 }
 
 .abt-text .abt-text p {
@@ -1440,6 +1452,7 @@ span.text_sb-title {
 	font-size: 14px;
 	color: #000;
 	font-family: 'SackersGothicStd-Medium';
+	text-decoration:uppercase;
 }
 
 .foot-head h2 {
@@ -1447,6 +1460,7 @@ span.text_sb-title {
 	color: #000;
 	font-family: 'SackersGothicStd-Medium';
 	margin-top: 5px;
+	text-decoration:uppercase;
 }
 
 .bg-footnotes .slide-box {
