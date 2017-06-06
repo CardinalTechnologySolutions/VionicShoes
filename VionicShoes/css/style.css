@@ -372,7 +372,7 @@ ol, ul {
 	width:50%;
 }
 
-.text-right{
+.abt-text .text-right{
 	text-align:center;
 	/* font-family: 'SackersGothicStd-Medium'; */
 	font-size:18px;
@@ -382,7 +382,7 @@ ol, ul {
 	float: left;
     width: 100%;
 }
-.text-right::before {
+.abt-text .text-right::before {
 	position: absolute;
     content: "";
     background: url(../images/doubleqoute1.png) no-repeat;
@@ -391,7 +391,7 @@ ol, ul {
     left: -30px;
     top: 0;
 }
-.text-right::after {
+.abt-text .text-right::after {
     position: absolute;
     content: "";
     background: url(../images/doubleqoute2.png) no-repeat;
@@ -400,7 +400,7 @@ ol, ul {
     right: -25px;
     bottom: -15px;
 }
-.text-right b {
+.abt-text .text-right b {
     float: left;
     width: 100%;
     font-size: 20px;
@@ -1216,7 +1216,7 @@ ul.sub-nav-ul {
 	font-family: 'Gotham-Book';
 	margin-top: 40px;
 }
-.abt-text p {
+.abt-text .abt-text p {
     font-size: 14px;
     margin-top: 15px;
     float: left;
