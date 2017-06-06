@@ -344,7 +344,7 @@
 			<div><h6>Abigail O.</h6></div>
           </a>
         </div>
-        <div class="slider1">
+        <div id="styleStorySlider">
           <div class="slide">
             <div class="col-sm-6 col-xs-12 bg-big">
               <h2>alice kerley,<br/>
@@ -871,7 +871,7 @@
     <script src="lib/boxslider/js/jquery.bxslider.js" type="text/javascript"></script>
     <script type="text/javascript">		
       $(document).ready(function(){
-		  var thumbClicked = false;
+		 var thumbClicked = false;
 		  // Instantiate the Bootstrap carousel for top style stories
 		  $('.multi-item-carousel').carousel({			 
 			interval: false,
@@ -893,9 +893,22 @@
 			  }
 		  });
 		  
-		  $('.slider1').bxSlider({
-			pagerCustom: '#bx-pager'
+		  var styleStorySlider = $('#styleStorySlider').bxSlider({
+			pagerCustom: '#bx-pager',
+			infiniteLoop:false,
+			onSlideAfter:function($slideElement, oldIndex, newIndex){
+				if(newIndex == 0){
+					$("section#s-story-slider div.bx-controls-direction a.bx-prev").first().addClass('arrow-disabled');
+				}else if(newIndex == (ssSlideQty - 1)){
+					$("section#s-story-slider div.bx-controls-direction a.bx-next").first().addClass('arrow-disabled');
+				}else{
+					$("section#s-story-slider div.bx-controls-direction a.bx-prev").first().removeClass('arrow-disabled');
+					$("section#s-story-slider div.bx-controls-direction a.bx-next").first().removeClass('arrow-disabled');
+				}
+			}
 		  });
+		  $("section#s-story-slider div.bx-controls-direction a.bx-prev").first().addClass('arrow-disabled');
+		  var ssSlideQty = styleStorySlider.getSlideCount();
 		  
 		  //responsive menu toggle
 		  $("#menutoggle").click(function() {
