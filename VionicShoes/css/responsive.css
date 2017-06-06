@@ -190,7 +190,7 @@
 		font-size: 12px;
 	}
 	.bg-footnotes .slide-box {
-		min-height: 490px;
+		min-height: 470px;
 	}
 	.bg-footnotes {
 		margin: 0 0 60px 0;
@@ -222,6 +222,19 @@
 }
 .s-story-slider .bx-pager {
     max-width: 600px;
+}
+
+.bg-footnotes .bx-wrapper .bx-controls-direction a.bx-next {
+    right: -40px !important;
+    background: url(../images/right-arrow.png) no-repeat;
+    background-size: 70%;
+    top: 32.2%;
+}
+.bg-footnotes .bx-wrapper .bx-controls-direction a.bx-prev {
+    left: -30px !important;
+    background: url(../images/left-arrow.png) no-repeat !important;
+    top: 32.2%;
+    background-size: 70% !important;
 }
 }
 
