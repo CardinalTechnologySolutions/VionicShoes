@@ -430,7 +430,7 @@ ol, ul {
 	font-family: 'SackersGothicStd-Medium';
     font-size: 14px;
     color: #a29d9c;
-    padding: 10px 30px;
+    padding: 5px 39px;
     background-color: transparent;
     border: 1px solid #ccc;
     position: relative;
@@ -482,8 +482,8 @@ ol, ul {
 
 
 .img-thumb-btm{
-    width: 93px;
-    height: 80px;
+    width: 94px;
+    height: 85px;
     position: relative;
     float: left;
 	opacity: 0.3;
