@@ -1120,30 +1120,24 @@ header.nav>li>a {
 	top: 25px;
 }
 
-.multi-item-carousel .bx-prev {
-	left: -50px;
-	background: url(../images/left-arrow.png) no-repeat !important;
-	width: 30px;
-	height: 52px;
-	position: absolute;
-	top: 26.1%;
-	margin-top: -16px;
-	outline: 0;
-	text-indent: -9999px;
-	z-index: 9999;
+.bg-footnotes .bx-wrapper .bx-controls-direction a {
+    width: 30px;
+    height: 52px;
+    position: absolute;
+    top: 26.1%;
+    margin-top: -16px;
+    outline: 0;
+    text-indent: -9999px;
+    z-index: 9999;
 }
 
-.multi-item-carousel .bx-next {
-	right: -30px;
-	background: url(../images/right-arrow.png) no-repeat !important;
-	width: 30px;
-	height: 52px;
-	position: absolute;
-	top: 26.1%;
-	margin-top: -16px;
-	outline: 0;
-	text-indent: -9999px;
-	z-index: 9999;
+.bg-footnotes .bx-wrapper .bx-controls-direction a.bx-prev {
+    left: -50px !important;
+    background: url(../images/left-arrow.png) no-repeat !important;
+}
+.bg-footnotes .bx-wrapper .bx-controls-direction a.bx-next {
+    right: -50px !important;
+    background: url(../images/right-arrow.png) no-repeat;
 }
 
 .bot-links ul {
