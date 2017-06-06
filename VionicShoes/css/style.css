@@ -364,6 +364,7 @@ ol, ul {
 	transition: all 0.5s ease;
 }
 
+
 .bg-big{
 	background-image:url(../images/bg-big.png);
 	background-repeat:no-repeat;
@@ -567,6 +568,43 @@ footer .top-pad {
     letter-spacing: 2px;
     width: 100%;
 }
+.formstore{
+	display:block;
+}
+.findstoreinput{
+    display: inline-block; 
+	margin: 0 auto; 
+	height: auto; 
+	line-height: 16px; 
+	background-color: #000000; 
+	border: none; 
+	border-bottom: 1px solid #cccccc; 
+	font-family: MrsEavesOT-Italic; 
+	font-size: 18px; 
+	color: #ffffff; 
+	font-weight: 100; 
+	width: 200px
+}
+.fb-email{
+    display: inline-block; 
+	margin: 0 auto; 
+	height: auto; 
+	line-height: 16px; 
+	background-color: #000000; 
+	border: none; 
+	border-bottom: 1px solid #cccccc; 
+	font-family: MrsEavesOT-Italic; 
+	font-size: 18px; 
+	color: #ffffff; 
+	font-weight: 100; 
+	width: 200px
+}
+.submit-caret{
+	height: auto; 
+	background-color: #000000; 
+	color: #ffffff
+}
+
 footer .col-2{
 	text-align:center;
 	border-right:1px solid #fff;
