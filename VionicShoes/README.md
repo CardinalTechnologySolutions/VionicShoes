@@ -1,3 +1,0 @@
-# VionicShoes
-Vionic Shoes
-
