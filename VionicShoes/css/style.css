@@ -532,8 +532,10 @@ ul {
 }
 
 .img-thumb-right {
-	float: left;
-	margin: 0 8px;
+	max-width: 95px !important;
+	display: inherit !important;
+	height: 50px;
+	margin: 0;
 }
 
 .thumb-bt-position {
@@ -1497,4 +1499,17 @@ span.text_sb-title {
 .fadeIn {
 	-webkit-animation-name: fadeIn;
 	animation-name: fadeIn;
+}
+.text-right-icon ul li {
+	display: inline-block;
+	max-width: 95px;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+.text-right-icon ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	width: 100%;
 }
