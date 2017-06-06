@@ -909,13 +909,13 @@
 		  
 		  $("div.bg-img-thumb img").off("click").on("click", function(){
 			  thumbClicked = true;
-			  /*Id of the thumb nail image clicked on style stories slider*/
+			  /*Id of the thumbnail image clicked on style stories slider*/
 			  var id = $(this).attr('id');
 			  /*Url to the big image of this thumbnail*/
 			  imgUrl = "images/"+id.split("-")[0]+"/"+id+".png";
 			  /*Big image reference, which src will be replaced with new big image of respective thumbnail clicked*/
 			  var bigImageId = id.split("-")[0]+"-big-img";		
-			  /* Replace big image src with big image of the thumnail clicked */			  
+			  /* Replace image src with big image of the thumbnail clicked */			  
 			  $("#"+bigImageId).attr("src", imgUrl);
 		  });
       });	
