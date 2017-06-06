@@ -529,6 +529,8 @@ ul {
 	position: relative;
 	float: left;
 	opacity: 0.3;
+    transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
 }
 
 .img-thumb-right {
@@ -1064,14 +1066,14 @@ header.nav>li>a {
 	position: relative;
 }
 
-.bx-wrapper {
+.s-story-slider .bx-wrapper {
 	padding-top: 35px !important;
 	box-shadow: 0px 0px 50px 4px #efecec;
 	margin-top: 40px;
 	background:#fff;
 }
 
-.bx-wrapper:before {
+.s-story-slider .bx-wrapper:before {
 	position: absolute;
 	content: "";
 	left: 50%;
@@ -1083,7 +1085,7 @@ header.nav>li>a {
 	z-index: 9;
 }
 
-.bx-pager {
+.s-story-slider .bx-pager {
 	text-align: center;
 	display: flex;
 	display: -webkit-box;
