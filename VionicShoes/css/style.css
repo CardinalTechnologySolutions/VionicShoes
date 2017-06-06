@@ -1513,3 +1513,12 @@ span.text_sb-title {
 	list-style-type: none;
 	width: 100%;
 }
+
+.arrow-disabled {
+    pointer-events: none;
+    opacity: 0.1 !important;
+}
+
+.active-thumb {
+   opacity: 1;
+}
