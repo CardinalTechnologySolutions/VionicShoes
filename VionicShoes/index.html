@@ -611,7 +611,7 @@
     </section>
     <!--Video section end-->
     <!--footnotes section start-->
-    <section class="bg-footnotes">
+    <section class="bg-footnotes" id="fn-story-slider">
       <div class="container">
 			<div class="col-md-12 foot-notes">
 			  healthy footnotes<br>
@@ -622,6 +622,92 @@
 				<a href="https://twitter.com/vionicshoes" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 				<a href="https://www.youtube.com/user/Vionicshoes" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
 			  </div>
+			</div>
+		</div>
+		 <div class="container">
+			<div class="col-md-12">
+				<div id="footNoteStorySlider">
+					<div class="slide">
+ 							<a href="#1">
+							<img src="images/circle-img1.png" class="img-circle" alt="circle-img1" /></a>
+							<div class="col-xs-12 style-str-head">
+							  spring style series:
+							  girls' night out
+							</div>
+							<div class="col-xs-12 testimonials-content">
+							  <p>Step out with the girls in style! Lead the pack on heeled sandals or open toed booties that keep the party going all night.</p>
+							</div>
+							<div class="col-xs-12 view-article">
+								<a href="http://www.vionicshoes.com/blog/spring-style-series-girls-night-vionic-shoes/">View Article ></a>
+							</div>
+					</div>
+					<div class="slide">
+ 							<a href="#1"><img src="images/circle-img2.png" class="img-circle" alt="circle-img2" /></a>
+							<div class="col-xs-12 style-str-head">
+							  spring style series:
+							  dressing for spring
+							  daytime events
+							</div>
+							<div class="col-xs-12 testimonials-content">
+							  <p>Put a spring in your step as you celebrate the outdoor season. You’ll be the life of the beach or barbecue in cute wedges and flats.</p>
+							</div>
+							<div class="col-xs-12 view-article">
+							  <a href=" http://www.vionicshoes.com/blog/spring-style-series-dressing-spring-daytime-events-vionic-shoes/">View Article ></a>
+							</div>
+ 					</div>
+					<div class="slide">
+ 							<a href="#1"><img src="images/circle-img3.png" class="img-circle" alt="circle-img3" /></a>
+							<div class="col-xs-12 style-str-head">
+							  spring style series:
+							  girls' night out
+							</div>
+							<div class="col-xs-12 testimonials-content">
+							  <p>Step out with the girls in style! Lead the pack on heeled sandals or open toed booties that keep the party going all night.</p>
+							</div>
+							<div class="col-xs-12 view-article">
+							  <a href="http://www.vionicshoes.com/blog/spring-style-series-weekend-wear-vionic-shoes/" >View Article ></a>
+							</div>
+ 					</div>
+					<div class="slide">
+ 							<a href="#1"><img src="images/circle-img2.png" class="img-circle" alt="circle-img2" /></a>
+							<div class="col-xs-12 style-str-head">
+							  style series:
+							  weekend wear
+							</div>
+							<div class="col-xs-12 testimonials-content">
+							  <p>TGIF! Whether you’re up and running or kicking back, step into weekend bliss in oh-so-chic sandals and ready-to-go sneakers.</p>
+							</div>
+							<div class="col-xs-12 view-article">
+							  <a href=" http://www.vionicshoes.com/blog/spring-style-series-girls-night-vionic-shoes/">View Article ></a>
+							</div>
+ 					</div>
+					<div class="slide">
+ 							<a href="#1"><img src="images/circle-img3.png" class="img-circle" alt="circle-img3" /></a>
+							<div class="col-xs-12 style-str-head">
+							  spring style series:
+							  girls' night out
+							</div>
+							<div class="col-xs-12 testimonials-content">
+							  <p>Step out with the girls in style! Lead the pack on heeled sandals or open toed booties that keep the party going all night.</p>
+							</div>
+							<div class="col-xs-12 view-article">
+							  <a href="http://www.vionicshoes.com/blog/spring-style-series-dressing-spring-daytime-events-vionic-shoes/">View Article ></a>
+ 						  </div>
+					</div>
+					<div class="slide">
+ 						<a href="#1"><img src="images/circle-img1.png" class="img-circle"></a>
+						<div class="col-xs-12 style-str-head">
+						  spring style series:
+						  girls' night out
+						</div>
+						<div class="col-xs-12 testimonials-content">
+						  <p>Step out with the girls in style! Lead the pack on heeled sandals or open toed booties that keep the party going all night.</p>
+						</div>
+						<div class="col-xs-12 view-article">
+						  <a href=" http://www.vionicshoes.com/blog/spring-style-series-weekend-wear-vionic-shoes/">View Article ></a>
+						</div>
+ 					</div>
+				</div>
 			</div>
 		</div>
         <div class="container ">
@@ -906,6 +992,14 @@
 		  });
 		  $("section#s-story-slider div.bx-controls-direction a.bx-prev").first().addClass('arrow-disabled');
 		  var ssSlideQty = styleStorySlider.getSlideCount();
+		  
+		   var footNoteSlider = $('#footNoteStorySlider').bxSlider({
+			slideWidth: 300,
+			minSlides: 2,
+			maxSlides: 3,
+			moveSlides: 1,
+			slideMargin: 10
+		  });
 		  
 		  //responsive menu toggle
 		  $("#menutoggle").click(function() {
