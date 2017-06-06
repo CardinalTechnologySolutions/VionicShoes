@@ -890,7 +890,9 @@ input.submit-caret {
 .padding0 {
 	padding: 0;
 }
-
+.padding5 {
+	padding: 0 5px;
+}
 .custom-container {
 	/* max-width: 980px; */
 	padding: 0;
