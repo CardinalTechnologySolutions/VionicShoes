@@ -846,12 +846,19 @@
     <script type="text/javascript">		
       $(document).ready(function(){
 		var slideWidth = 324, minSlides = 3, maxSlides = 3, moveSlides = 1, slideMargin = 70;
-		if (/Android|webOS|iPhone|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk/i.test(navigator.userAgent) || (head.screen.innerWidth >= 620 && head.screen.innerWidth <= 767)) {
+		if (/Android|webOS|iPhone|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk/i.test(navigator.userAgent)){
 			slideWidth = 134; 
 			minSlides = 2; 
 			maxSlides = 2; 
 			moveSlides = 1;
 			slideMargin = 18;
+		}
+		if(head.screen.innerWidth >= 620 && head.screen.innerWidth <= 767){
+			slideWidth = 200; 
+			minSlides = 2; 
+			maxSlides = 2; 
+			moveSlides = 1;
+			slideMargin = 30;
 		}
 		 var thumbClicked = false;
 		  // Instantiate the Bootstrap carousel for top style stories
