@@ -460,6 +460,9 @@ ul {
 .video-text {
 	margin-top: 27px;
 }
+.video-box{
+	float:right;
+}
 
 .btn-get-learnmore {
 	font-family: 'SackersGothicStd-Medium';
@@ -1032,6 +1035,8 @@ header.nav>li>a {
 	width: 100%;
 	text-align: center;
 	float: left;
+	font-size:10px;
+	color:#000;
 }
 
 .bot-links ul li {
