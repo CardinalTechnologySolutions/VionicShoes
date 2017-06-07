@@ -332,7 +332,7 @@
 		display: none;
 	}
 	.mb-view {
-		display: black;
+		display: block;
 	}
 	.footer .links,
 	.footer .block-subscribe {
@@ -348,10 +348,11 @@
 		color: #ccc;
 	}
 	.footer {
-		border-top: 1px solid #ccc;
-		border-bottom: 1px solid #ccc;
-		padding: 23px 0 146px 0;
-		box-sizing: content-box;
+    border-top: 1px solid #ccc;
+    padding: 23px 0 10px 0;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
 	}
 	.footer .links li {
 		word-break: break-all;
@@ -390,7 +391,20 @@
 		text-align: center;
 		color: #000 !important;
 		font-size: 9px;
+		border-top: 1px solid #ccc;
+		padding: 10px 5px 0 0px;
 	}
+	.bot-links ul li {
+    padding: 0 6px;
+    display: inline-block;
+	margin-bottom: 7px;
+}
+.bot-links ul li a {
+    font-size: 10px;
+}
+.bot-links ul li:last-child {
+    border: 0;
+}
 	.copyright a {
 		color: #000 !important;
 	}
@@ -539,6 +553,8 @@
 	}
 	.footer-container {
 		display: block;
+		float: left;
+		width: 100%;
 	}
 	.s-story-slider .bx-wrapper {
 		margin-top: 40px;
@@ -572,7 +588,7 @@
 }
 .bg-footnotes .bx-wrapper .bx-controls-direction a.bx-next {
     background-size: 60%;
-    right: -38px !important;
+    right: -36px !important;
 }
 
 .bg-footnotes .bx-wrapper .bx-controls-direction a.bx-prev {
@@ -640,6 +656,25 @@
 .floating {
 	float:right;
 }
+.bg-footnotes .bx-wrapper {
+    margin-left: 5px;
+	width: 286px !important;
+    margin: auto;
+}
+.footer-mobile .links-btm li {
+    font-size: 10px;
+    padding: 2px 0;
+}
+.footer-mobile .links-btm {
+    margin-top: 13px;
+}
+.mb-view ul.nav.navbar-nav li {
+    background: #f1f1f1;
+    margin: 1px 0;
+}
+.mb-view ul.nav.navbar-nav {
+    margin-top: 0;
+}
 }
 
 @media only screen and (min-width: 320px) and (max-width: 550px) {
@@ -661,12 +696,12 @@
 	}
 	.s-story-slider .bx-wrapper .bx-next {
     right: 0px !important;
-    top: 33% !important;
+    top: 35% !important;
     background-size: 80% !important;
 }
 .s-story-slider .bx-wrapper .bx-prev {
     left: 5px !important;
-    top: 33% !important;
+    top: 35% !important;
     background-size: 80% !important;
  }
  .img-thumb-right {
@@ -674,5 +709,16 @@
 }
 .text-right-icon ul li {
     max-width: 77px;
+}
+.bg-footnotes .slide-box {
+    min-height: 320px;
+    width: 156px !important;
+    margin: 0 60px;
+}
+.bg-footnotes .bx-wrapper .bx-controls-direction a.bx-prev {
+    left: 0px !important;
+}
+.bg-footnotes .bx-wrapper .bx-controls-direction a.bx-next {
+    right: 15px !important;
 }
 }

@@ -1471,7 +1471,9 @@ span.text_sb-title {
 .bg-footnotes .slide-box {
 	min-height: 550px;
 }
-
+.bot-links ul li:last-child {
+    border: 0;
+}
 /*Animation--*/
 
 .animated {
