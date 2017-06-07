@@ -497,6 +497,7 @@
 	}
 	.bg-big {
 		background-position: 0px 0px;
+		    background-repeat: repeat-x;
 	}
 
 	.s-story-slider .bx-wrapper .bx-prev {

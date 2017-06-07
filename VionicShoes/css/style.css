@@ -1043,7 +1043,6 @@ header.nav>li>a {
 .text-right-icon {
 	width: 100%;
 	max-width: 297px;
-	float: left;
 	display: flex;
 	display: -webkit-box;
 	display: -moz-box;
@@ -1051,6 +1050,7 @@ header.nav>li>a {
 	display: -webkit-flex;
 	justify-content: center;
 	-webkit-box-pack: center;
+	margin:auto;
 }
 
 .flex-container {
