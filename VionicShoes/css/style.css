@@ -414,6 +414,9 @@ ul {
     color: #E6E3E3;
     font-size: 26px !important;
 }
+.abt-text .text-right .fa.fa-quote-right {
+    position: absolute;
+}
 .abt-text .text-right span {
     font-size: 14px;
     font-family: 'Gotham-Book';

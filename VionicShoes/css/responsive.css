@@ -213,7 +213,7 @@
      max-width: 85px;
 }
 .abt-text h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: 50px;
 }
 .s-story-slider .bx-pager {
@@ -232,6 +232,9 @@
     top: 32.2%;
     background-size: 70% !important;
 }
+.abt-text .text-right {
+    line-height: 20px;
+}
 }
 
 @media only screen and (max-width: 767px) {
@@ -243,14 +246,7 @@
     display: block;
     height: 240px;
 	}
-	.text-right::after {
-		right: -30px;
-		background-size: 70%;
-	}
-	.text-right::before {
-		left: -20px;
-		background-size: 70%;
-	}
+	
 	.bg-big h2 {
     font-size: 13px;
     line-height: 20px;
@@ -506,14 +502,14 @@
 	.s-story-slider .bx-wrapper .bx-prev {
     left: 10px !important;
     background: url(../images/left-arrow.png) no-repeat !important;
-    top: 35% !important;
+    top: 33% !important;
     background-size: 100% !important;
     width: 20px !important;
 	}
 	.s-story-slider .bx-wrapper .bx-next {
     right: 10px !important;
     background: url(../images/right-arrow.png) no-repeat !important;
-    top: 35% !important;
+    top: 33% !important;
     background-size: 100% !important;
     width: 20px !important;
 	}
@@ -622,14 +618,7 @@
 .abt-text .text-right p {
     font-size: 13px;
 }
-.abt-text .text-right::before {
-    background-size: 70%;
-	left: -20px;
-}
-.abt-text .text-right::after {
-    background-size: 70%;
-	right: -26px;
-}
+
 .text-right-icon ul li {
     max-width: 85px;
 }
@@ -676,11 +665,27 @@
 .mb-view ul.nav.navbar-nav {
     margin-top: 0;
 }
+.abt-text .text-right .fa {
+    font-size: 20px !important;
+}
+.view-article a {
+    margin-top: 10px;
+	margin-bottom:20px;
+
+}
 }
 
 @media only screen and (min-width: 620px) and (max-width: 767px) {
 	
 	
+}
+@media only screen and (min-width: 412px) and (max-width: 732px) {
+.s-story-slider .bx-wrapper .bx-next {
+    top: 34% !important;
+}
+.s-story-slider .bx-wrapper .bx-prev {
+    top: 34% !important;
+}
 }
 
 @media only screen and (min-width: 320px) and (max-width: 550px) {
@@ -702,12 +707,12 @@
 	}
 	.s-story-slider .bx-wrapper .bx-next {
     right: 0px !important;
-    top: 35% !important;
+    top: 33% !important;
     background-size: 80% !important;
 }
 .s-story-slider .bx-wrapper .bx-prev {
     left: 5px !important;
-    top: 35% !important;
+    top: 33% !important;
     background-size: 80% !important;
  }
  .img-thumb-right {
