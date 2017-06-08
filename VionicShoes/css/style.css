@@ -105,7 +105,6 @@ ul {
 	margin-right: 0px;
 	position: relative;
 }
-
 . .shop-men {
 	padding: 2% 13% 2% 26% !important;
 }
@@ -1288,6 +1287,9 @@ nav.menu {
 	line-height: normal;
 	margin: 0;
 	padding: 3px 0;
+}
+.categories-list .li-nested{
+	margin:10px 0;
 }
 
 .categories-list li :hover {
