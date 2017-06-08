@@ -250,6 +250,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+	.btn-get-learnmore {
+    float: inherit;
+}
 	.slide .img-circle {
 		width: 100%;
 	}
@@ -587,8 +590,8 @@
     font-size: 16px;
 }
 	.bg-footnotes {
-		background-position: 0px -110px;
-		    margin: 0;
+    background-position: 0px -134px;
+    margin: 0;
 	}
 	.mb-view .navbar-brand {
 		height: auto;
@@ -648,6 +651,7 @@
     float: left;
     margin-top: 20px;
 	    font-size: 12px;
+	    margin-bottom: 40px;
 }
 	.img-thumb-btm {
     width: 60px;
@@ -656,7 +660,7 @@
 	}
 	.foot-notes {
     font-size: 16px;
-    margin: 35px 0 45px 0;
+    margin: 35px 0 20px 0;
 }
 .bg-footnotes .bx-wrapper .bx-controls-direction a {
 	top: 75px;

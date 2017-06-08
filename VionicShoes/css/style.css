@@ -465,6 +465,15 @@ ul {
     position: relative;
     margin-top: 17px;
     text-transform: uppercase;
+	float: left;
+}
+.btn-get-learnmore:hover,
+.btn-get-learnmore:active,
+.btn-get-learnmore:focus {
+    text-decoration:none;
+	color: #a29d9c;
+	outline:none;
+
 }
 
 .bg-footnotes {
