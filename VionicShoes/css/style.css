@@ -1466,6 +1466,16 @@ span.text_sb-title {
 .bot-links ul li:last-child {
     border: 0;
 }
+.s-story-slider  h1 {
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    line-height: 28px;
+    margin: 100px 0 60px 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'SackersGothicStd-Medium';
+}
 /*Animation--*/
 
 .animated {
