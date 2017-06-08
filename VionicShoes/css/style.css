@@ -1475,6 +1475,8 @@ span.text_sb-title {
     padding: 0;
     text-transform: uppercase;
     font-family: 'SackersGothicStd-Medium';
+	float: left;
+    width: 100%;
 }
 /*Animation--*/
 
