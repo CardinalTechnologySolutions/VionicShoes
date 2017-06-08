@@ -64,7 +64,7 @@ h3 {
 	line-height: 24px;
 	color: #fff;
 	text-align: center;
-	text-decoration:uppercase;
+ 	text-transform:uppercase;
 }
 
 .s-story-slider .bx-pager a h6 {
@@ -457,15 +457,15 @@ ul {
 }
 
 .btn-get-learnmore {
-	font-family: 'SackersGothicStd-Medium';
-	font-size: 14px;
-	color: #a29d9c;
-	padding: 5px 39px;
-	background-color: transparent;
-	border: 1px solid #ccc;
-	position: relative;
-	margin-top: 17px;
-    text-decoration:uppercase;
+    font-family: 'SackersGothicStd-Medium';
+    font-size: 14px;
+    color: #a29d9c;
+    padding: 8px 39px;
+    background-color: transparent;
+    border: 1px solid #a29d9c;
+    position: relative;
+    margin-top: 17px;
+    text-transform: uppercase;
 }
 
 .bg-footnotes {
@@ -1123,7 +1123,7 @@ header.nav>li>a {
     width: 30px;
     height: 52px;
     position: absolute;
-    top: 26.1%;
+    top: 144px;
     margin-top: -16px;
     outline: 0;
     text-indent: -9999px;
@@ -1287,7 +1287,7 @@ nav.menu {
 	display: block;
 	line-height: normal;
 	margin: 0;
-	padding: 5px 0;
+	padding: 3px 0;
 }
 
 .categories-list li :hover {
@@ -1449,7 +1449,7 @@ span.text_sb-title {
 	font-size: 14px;
 	color: #000;
 	font-family: 'SackersGothicStd-Medium';
-	text-decoration:uppercase;
+ 	text-transform:uppercase;
 }
 
 .foot-head h2 {
@@ -1457,7 +1457,7 @@ span.text_sb-title {
 	color: #000;
 	font-family: 'SackersGothicStd-Medium';
 	margin-top: 5px;
-	text-decoration:uppercase;
+ 	text-transform:uppercase;
 }
 
 .bg-footnotes .slide-box {
